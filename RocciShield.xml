@@ -1,0 +1,3283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Nutzer\OneDrive\Projekte\RocciShield\RocciShield.kicad_sch</source>
+    <date>23.06.2023 21:40:44</date>
+    <tool>Eeschema 7.0.2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>RoCCI Shield</title>
+        <company>RoCCI e.V.</company>
+        <rev>0.2</rev>
+        <date>2023-06-23</date>
+        <source>RocciShield.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10µ</value>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed60da9b-d72b-477d-a971-766c3e67038d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>220n</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4fc8be1-2252-4e2e-bcf0-969b3c4e2862</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>405dc07d-972e-4d81-a440-3d570918ee74</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>22 µF</value>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20038cfd-b990-4db8-89ba-6480a8cb0e47</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>22 µF</value>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9ffed4c-fad9-4d68-ae90-069faf13cf5b</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7ef3123-08cf-489b-a995-f88091800a74</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1µ</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b520cb52-94c0-458b-86d0-b0e421885428</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73dfa996-2778-484b-a70a-a3eafc97e690</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e868b55-72e0-4301-b77f-d52e3ac29f13</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>22 µF</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a33ee22c-81cc-4de7-8ae2-45f0526115f4</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8bd94435-c3b6-44e4-bb37-952f3410f93d</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6013a797-be9b-46b4-8c52-7e1868e241d2</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100µ</value>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f810848-6cb6-4aa5-b1fc-9e9116c0f1c5</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26bc2e5a-fe26-4126-a376-1c93fdf155e1</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>720e6f63-6017-4b78-8201-96878b5284a9</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9364524-c61f-49b6-8117-dba211690aad</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8d3c477-acdd-4e21-a136-dddc094785cd</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af2d524c-7dcc-43c4-947d-f82e6958737a</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2906a907-4284-4cff-97f9-f1e4d6b1e0b5</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb1d472b-aa0e-4e90-be18-41f30d480eec</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>CDBA340-HF</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.comchiptech.com/admin/files/product/CDBA340-HF%20Thru193640.%20CDBA3100-HF%20RevB.pdf</datasheet>
+      <libsource lib="Diode" part="CDBA340-HF" description="40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9842e9c-8b4a-4b29-ab5e-0cc3b88506cf</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d3fcdde-fd64-4c41-be9c-e3a667da0040</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c86f4154-da9c-471a-a449-ca6199db3275</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>GR</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ec068e6-a868-4626-9b3f-00c76928928b</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>GR</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e985d85a-285e-4622-8e1d-7a1436578134</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>GR</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c88e5620-c211-406c-96be-a9784be075c9</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8dd9f9da-3e3d-4522-8f98-e50ab244f4ac</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>269c3698-13fa-4ebb-92f5-18b12a43df56</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbfa96a7-8c98-414f-9162-dfaff2bf5b5a</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ca6f708-ac7d-46f0-8d7b-33c7822786df</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>GR</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5a5535b-e8ab-4518-8b14-ca9e66c43170</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>GR</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4de77cd7-46ec-41e9-8131-759dd8662818</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4cc3df9-076c-4062-8c50-f146dcb694e7</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae088322-44f5-46f7-b8b8-5f96ab69790b</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>RED</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87b46f24-a1b5-4c74-83b9-22ed4ce91f51</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>GR</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b904167-9c15-4bae-ba7d-a52a8cbf6cc3</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>GR</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60788682-76a3-4652-932e-d6241a226efb</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7511a9d9-214a-4577-918e-8cf0fedda59d</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0be12cb2-b643-44fd-bc72-18684565a8c1</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>GR</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dd47f56-5d63-44fd-9e72-7886d4ef9962</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>GR</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e79ea1d9-4164-41b1-ba9b-e072631259ac</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1879a91-8f6b-4832-aa18-0670b9574c86</tstamps>
+    </comp>
+    <comp ref="D25">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a299af8-084a-4cc6-b73a-24c0beec9dda</tstamps>
+    </comp>
+    <comp ref="D26">
+      <value>GR</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c4afca1-7444-40ba-84b4-c1c20144ee79</tstamps>
+    </comp>
+    <comp ref="D27">
+      <value>GR</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29eeda55-9a25-4fac-9247-0ec32e931cad</tstamps>
+    </comp>
+    <comp ref="D28">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>672abb81-b970-4778-97b2-aac9b733553c</tstamps>
+    </comp>
+    <comp ref="D29">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b4ba509-c69d-470e-a640-db870e83a96b</tstamps>
+    </comp>
+    <comp ref="D30">
+      <value>5V1</value>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32c99862-c6c3-4bda-9d42-ede7ae319c26</tstamps>
+    </comp>
+    <comp ref="D31">
+      <value>3V4</value>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bfb2dac6-721e-465b-b21c-3d133c82718d</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>100 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>771fabc9-d13a-4ce2-b1a8-4d612a78a354</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>10A</value>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Fuse"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d30e5db-0ae8-43cb-9156-2cda1527505b</tstamps>
+    </comp>
+    <comp ref="F3">
+      <value>10 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae1a31b9-5a58-43ed-8f05-3335b26f3849</tstamps>
+    </comp>
+    <comp ref="F4">
+      <value>10 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df1b06e8-b26b-4f4f-bcc2-13211f49859d</tstamps>
+    </comp>
+    <comp ref="F5">
+      <value>100 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1a536ea-dd2b-4f17-8d97-f34684993c46</tstamps>
+    </comp>
+    <comp ref="F6">
+      <value>10 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>054c6c64-713c-4172-85a4-b4b06e114a3e</tstamps>
+    </comp>
+    <comp ref="F7">
+      <value>10 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>932da125-b3e5-4169-b395-e9c67411bcb0</tstamps>
+    </comp>
+    <comp ref="F8">
+      <value>100 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b569bd6-ed2e-43a9-b3d2-29a9764893c6</tstamps>
+    </comp>
+    <comp ref="F9">
+      <value>10 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76cfa361-ef08-43a4-b668-d1c73d4a5154</tstamps>
+    </comp>
+    <comp ref="F10">
+      <value>10 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95750059-8bbe-4c5b-bd43-fe7b72335f8c</tstamps>
+    </comp>
+    <comp ref="F11">
+      <value>100 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6a147b9-1003-4396-82c2-57ed6ffa1064</tstamps>
+    </comp>
+    <comp ref="F12">
+      <value>10 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4885dd25-1482-40b9-b23d-5d088f61ddcb</tstamps>
+    </comp>
+    <comp ref="F13">
+      <value>10 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44f5caad-2013-4b7f-8f87-769634555fa5</tstamps>
+    </comp>
+    <comp ref="F14">
+      <value>100 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f08de294-3d0a-4642-9cd5-4451a0a00a6a</tstamps>
+    </comp>
+    <comp ref="F15">
+      <value>10 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b8e8f37-f36b-4454-8672-3848d3989ccc</tstamps>
+    </comp>
+    <comp ref="F16">
+      <value>10 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47c2c08f-2bf0-4425-8a51-a83d76231517</tstamps>
+    </comp>
+    <comp ref="F17">
+      <value>100 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea48701e-05da-4e3d-a958-7d2f5224bb00</tstamps>
+    </comp>
+    <comp ref="F18">
+      <value>10 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a3d0c1d-8c38-4c9f-bbfa-89cd96847ed5</tstamps>
+    </comp>
+    <comp ref="F19">
+      <value>10 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3bd47685-0fac-4bee-a375-367e8bb113ed</tstamps>
+    </comp>
+    <comp ref="F20">
+      <value>100 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa29ce79-15a6-4259-aca1-852a505a3daf</tstamps>
+    </comp>
+    <comp ref="F21">
+      <value>10 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebbff108-cb75-476b-bb55-c9a084ef1cab</tstamps>
+    </comp>
+    <comp ref="F22">
+      <value>10 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>298fb87e-20f8-4072-94fd-6bd384e2143c</tstamps>
+    </comp>
+    <comp ref="F23">
+      <value>100 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83c65b59-b5e8-4308-ba01-d2ae8c7be137</tstamps>
+    </comp>
+    <comp ref="F24">
+      <value>10 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5369109-3d8d-4dc9-890e-ff52f29faf37</tstamps>
+    </comp>
+    <comp ref="F25">
+      <value>10 mA</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4311815e-36a7-4f20-9a54-b87df18b64dd</tstamps>
+    </comp>
+    <comp ref="F26">
+      <value>3A</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ddbdcb5a-62e9-4082-97cb-331ec7c62d2b</tstamps>
+    </comp>
+    <comp ref="F27">
+      <value>1A</value>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acad6db2-5a40-4997-a186-15380d19445f</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Battery</value>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7193f698-50b6-4a17-886d-5abc2dc396ff</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>I2C0</value>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4311f005-5dac-4e6c-87ed-2cda8401d59d</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>I2C1</value>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee115e92-d248-40cc-b425-d671bb8571e4</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>I2C2</value>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc9e2373-398c-4b36-8772-9d2c66d7617e</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>I2C3</value>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96fb8c2c-8964-43e8-ac33-fa2fbb42285b</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>M1</value>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45657b8c-3ccd-460e-90d4-d3c39c1620cf</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>I2C4</value>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c01f1282-b471-470d-a0ed-ca033db87524</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>M2</value>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>058c9674-a3c9-4865-8009-ca8b21e405df</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>I2C5</value>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e412490d-b2db-4d5a-8294-e55d0acad4e4</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>M3</value>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23d6f301-457d-4b70-9942-92e0bdefffe9</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>I2C6</value>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0fe9316-d715-448e-b495-0b6225b9d05c</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>M4</value>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b999ca35-b1aa-4682-bb66-e2946f92814f</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>I2C7</value>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f50fd0d-0aec-4eaf-9be1-d4ff251539a3</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>Power</value>
+      <libsource lib="Connector" part="Conn_01x04_Socket" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06cdc17a-8973-4330-a72f-69ad6c76951f</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>I2C0_VCC</value>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da71b465-416e-434e-b266-fad5db6d14f9</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>I2C1_VCC</value>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>292b9cc0-61ba-4dba-af28-36626afb4ac6</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>I2C2_VCC</value>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67a6f1cb-2834-459a-b67b-439d071ff9b5</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>I2C3_VCC</value>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdb775c9-db72-473c-a2e4-d86ee6f1c9ed</tstamps>
+    </comp>
+    <comp ref="JP5">
+      <value>A0</value>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77bc0738-fa6c-4a48-8180-809b7e9bd7b1</tstamps>
+    </comp>
+    <comp ref="JP6">
+      <value>A0</value>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6188abb-47c6-4430-87e3-fc93c4edcf77</tstamps>
+    </comp>
+    <comp ref="JP7">
+      <value>A0</value>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc89eab6-211d-4909-b10b-18ddd4b86292</tstamps>
+    </comp>
+    <comp ref="JP8">
+      <value>I2C4_VCC</value>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7510f60-eb8d-4e76-a5b9-a61b2693b423</tstamps>
+    </comp>
+    <comp ref="JP9">
+      <value>I2C5_VCC</value>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7909493c-59d6-4f9e-b443-050888933a3c</tstamps>
+    </comp>
+    <comp ref="JP10">
+      <value>I2C6_VCC</value>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>267a8311-cf7a-4571-8d47-e619a1592695</tstamps>
+    </comp>
+    <comp ref="JP11">
+      <value>I2C7_VCC</value>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71c47606-9e32-47f8-8a6c-04105e8d8685</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>1.5µ</value>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>683de3f3-331d-4ca5-8d5e-9494dc139795</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>IRF7416</value>
+      <libsource lib="Device" part="Q_PMOS_GDS" description="P-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="P-MOSFET transistor, gate/drain/source"/>
+      <property name="ki_keywords" value="transistor PMOS P-MOS P-MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ca5b793-8cd3-4b2c-b02a-9854e916f96c</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4k7</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c06ccddb-8301-4ab7-a128-b59e7e394a65</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4k7</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a6da933-1b74-4d38-9d6a-ea72804fc2d9</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5aaa556-2fa4-4adc-ab65-7c3776e93fcd</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d5f88ef-5054-4b9f-a316-92bda51ac330</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>24.9k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82911b97-bc07-49ef-857a-6903d2007659</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>4k7</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97aa0295-ae98-4c19-9456-bdd72166889a</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>4k7</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34576516-95d2-4247-83a5-a1afc39e6342</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>4k7</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0cf0a83-0431-4c1c-8d8b-ae183e7c4efd</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>4k7</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>706189ea-be12-4201-825c-aac7b0aadb5d</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>383k 1%</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdc7636a-56e2-469d-916c-7a01c935715f</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01ac5077-8ae4-4019-bbdc-ecaffb5553a6</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>200</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2930718d-bf44-472c-969d-655548899a32</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>20</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5af4bd5f-57a1-43cd-a38d-816e22797401</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cae75959-bccf-49f2-b555-f0639e7611cd</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>1k47 1%</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85ce6577-027a-410b-ad33-f612ae5eedf7</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>4k7</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b20d3f2f-8f92-4ef6-aaf9-0e635595f72b</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>4k7</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>214cdb9e-acb2-4b3f-a661-a9f6279488f0</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>14k3 1%</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>face37f1-2265-4f2f-a26f-80a3eb39502e</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>4k7</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b2fbcce-21a5-44af-8b80-f80ceea8b75b</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>4k7</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af71eec7-12b6-4d5a-9c56-1d0d0997302e</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0aff0d1-2608-4cce-afe2-97ca9b8b4184</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7182b41-a294-45d1-95ce-2515a7128ab7</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>30k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8837b8b0-5237-4217-9cab-165cc2fbfa01</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>4k7</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e4f580b-c190-4076-8d50-ab3ae13da473</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>4k7</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad17100f-d7ce-43bb-b18e-fe752afdc99c</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>1k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88ae5faf-66b0-4df5-8cde-e395a4552d88</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>1k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b3dcbe3-b6ac-4af0-a798-fa76ecf603ca</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>20</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>418ad35b-d226-4511-9458-22d11efdfe9b</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>30k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e2bd500-014d-4a47-bf76-9684e5574a62</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>4k7</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d92cc61-6200-4504-9c5b-5c55114877d9</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>4k7</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c650accc-17ea-4bca-aceb-04a9104c425f</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>1k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>393ebc48-957b-4c0c-b883-549705e8e926</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>1k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ce061f7-c2ef-47cd-9bf4-cbad68687054</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>30k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01ecea9f-b920-4ba3-81b7-5938d902c1ea</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>4k7</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71214923-2b4f-48b6-bb14-f0f6e96e9d90</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>4k7</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d562e4c-8691-455a-be90-ba9b1f7287e3</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>1k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f16e0d13-14a0-42d6-916e-20fb90fdc84f</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>1k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2677eab6-b80e-45a6-8685-c9633c4a1044</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>30k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b894c101-e4e1-4795-a41c-f313428c08ad</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>4k7</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e0fc23a-4503-4cd8-bc74-c6669f3a1192</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>4k7</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4059efbb-1c11-45ea-a01d-5e1e0b07038e</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>~</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b890808-bdec-4c9c-8316-7e347ab01bf2</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>~</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3780fb1b-9125-45ec-b2f6-f3de87f10eb5</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>~</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81ac24a4-0730-4bc6-a746-36d14ab72f72</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>~</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7d397bf-1692-409a-a868-e6c5d0ba281a</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>~</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f480fee-9918-4ef2-a4b3-235bcb5d2770</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>~</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11f8c06f-a692-48f5-8381-6062774c4247</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>~</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75a7ce34-5a5d-48b5-bdbb-3837475b113f</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>~</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57d0d292-3b07-4c5e-b001-a61a664cd924</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>~</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2cce70c6-3e01-4530-b355-90487fa0bce7</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>~</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72c43437-dd79-49bf-bc8b-b0513fefd6f7</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>~</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cdb8978-f976-4146-8d04-d096e66b07c7</tstamps>
+    </comp>
+    <comp ref="TP12">
+      <value>~</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00ea9d0c-83f6-4741-99dd-aa24bbbf9f78</tstamps>
+    </comp>
+    <comp ref="TP13">
+      <value>~</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11081b93-3337-424a-b5d0-8776874e2f07</tstamps>
+    </comp>
+    <comp ref="TP14">
+      <value>~</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe332923-af85-4afc-b8aa-c7c9ee3012c7</tstamps>
+    </comp>
+    <comp ref="TP15">
+      <value>~</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ebc450f-f15c-4471-b526-214e6acad6cd</tstamps>
+    </comp>
+    <comp ref="TP16">
+      <value>~</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7e8dfb9-806a-4b86-a090-2fdecf6bfeae</tstamps>
+    </comp>
+    <comp ref="TP17">
+      <value>~</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b2db9d1-315f-458c-bb12-842ca68f642a</tstamps>
+    </comp>
+    <comp ref="TP18">
+      <value>~</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>917f6ea3-a14f-433b-b66d-700d7e4153a8</tstamps>
+    </comp>
+    <comp ref="TP19">
+      <value>~</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be54e460-771f-406a-a57f-2012cf56dd99</tstamps>
+    </comp>
+    <comp ref="TP20">
+      <value>~</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b897f573-b867-4acf-bd9c-35ab0cff5582</tstamps>
+    </comp>
+    <comp ref="TP21">
+      <value>~</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef24dd17-bc4a-47bb-85a5-5ac0aa906c04</tstamps>
+    </comp>
+    <comp ref="TP22">
+      <value>~</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>750a9637-574c-47ad-9998-1ac655922352</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LMR33630</value>
+      <footprint>Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lmr33630.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="LMR33630CDDA" description="Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=3A, F=2100kHz, Adjustable output voltage, HSOP-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=3A, F=2100kHz, Adjustable output voltage, HSOP-8"/>
+      <property name="ki_keywords" value="simple-switcher synchronous buck step-down voltage-regulator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b383e64c-4abb-406e-a497-cc30ff117a94</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AMS1117-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="AMS1117-3.3" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f99f0330-658b-4a8d-ac68-d5ec39072653</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>L7808</value>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="L7808" description="Positive 1.5A 35V Linear Regulator, Fixed Output 8V, TO-220/TO-263/TO-252"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Positive 1.5A 35V Linear Regulator, Fixed Output 8V, TO-220/TO-263/TO-252"/>
+      <property name="ki_keywords" value="Voltage Regulator 1.5A Positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b22f024-c90d-4f41-9c0b-9edb7e8f4d9b</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TPS3700</value>
+      <footprint>SOT95P280X110-6N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.10 mm</field>
+        <field name="PARTREV">G</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="TPS3700DDCR" part="TPS3700DDCR" description=""/>
+      <property name="PARTREV" value="G"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.10 mm"/>
+      <property name="MANUFACTURER" value="Texas Instruments"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29b49680-08cb-4dff-8343-ec4d0545adcf</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>TCA9548A</value>
+      <footprint>Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tca9548a.pdf</datasheet>
+      <libsource lib="Interface_Expansion" part="TCA9548APWR" description="Low voltage 8-channel I2C switch with reset, TSSOP-24"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Low voltage 8-channel I2C switch with reset, TSSOP-24"/>
+      <property name="ki_keywords" value="Low voltage 8-channel I2C switch with reset"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a484fa65-9500-4cb6-ada5-c1312b987a56</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>DRV8871</value>
+      <footprint>Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv8871.pdf</datasheet>
+      <libsource lib="Driver_Motor" part="DRV8871DDA" description="Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Current limiting, HTSOP-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Current limiting, HTSOP-8"/>
+      <property name="ki_keywords" value="H-bridge driver motor current limit"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>323e7f9c-a3ec-42c8-b09b-4a08a92a7792</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>DRV8871</value>
+      <footprint>Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv8871.pdf</datasheet>
+      <libsource lib="Driver_Motor" part="DRV8871DDA" description="Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Current limiting, HTSOP-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Current limiting, HTSOP-8"/>
+      <property name="ki_keywords" value="H-bridge driver motor current limit"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10a54091-40cb-4b58-b3de-4eda670e7522</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>DRV8871</value>
+      <footprint>Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv8871.pdf</datasheet>
+      <libsource lib="Driver_Motor" part="DRV8871DDA" description="Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Current limiting, HTSOP-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Current limiting, HTSOP-8"/>
+      <property name="ki_keywords" value="H-bridge driver motor current limit"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3af5345-5348-4232-ba56-0a47dc1581f4</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>DRV8871</value>
+      <footprint>Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv8871.pdf</datasheet>
+      <libsource lib="Driver_Motor" part="DRV8871DDA" description="Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Current limiting, HTSOP-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Current limiting, HTSOP-8"/>
+      <property name="ki_keywords" value="H-bridge driver motor current limit"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2719ccb0-0758-452c-b5a3-195e72c3f9c3</tstamps>
+    </comp>
+    <comp ref="XA1">
+      <value>Arduino_Mega2560_Shield</value>
+      <footprint>PCM_arduino-library:Arduino_Mega2560_Shield</footprint>
+      <datasheet>https://docs.arduino.cc/hardware/mega-2560</datasheet>
+      <libsource lib="PCM_arduino-library" part="Arduino_Mega2560_Shield" description="Shield for Arduino Mega 2560"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RocciShield.kicad_sch"/>
+      <property name="ki_description" value="Shield for Arduino Mega 2560"/>
+      <property name="ki_keywords" value="Arduino MPU Shield"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96c594c8-31ee-4f32-974e-61fb2d49455a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Socket">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Pin">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Socket">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS_GDS">
+      <description>P-MOSFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GDS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAT42">
+      <description>30V 0.2A Small Signal Schottky Diode, DO-35</description>
+      <docs>http://www.vishay.com/docs/85660/bat42.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT42</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/85660/bat42.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="CDBA340-HF">
+      <description>40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)</description>
+      <docs>https://www.comchiptech.com/admin/files/product/CDBA340-HF%20Thru193640.%20CDBA3100-HF%20RevB.pdf</docs>
+      <footprints>
+        <fp>D*SMA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">CDBA340-HF</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.comchiptech.com/admin/files/product/CDBA340-HF%20Thru193640.%20CDBA3100-HF%20RevB.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_Motor" part="DRV8871DDA">
+      <description>Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Current limiting, HTSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/drv8871.pdf</docs>
+      <footprints>
+        <fp>Texas*HTSOP*1EP*3.9x4.9mm*P1.27mm*EP2.95x4.9mm*Mask2.4x3.1mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DRV8871DDA</field>
+        <field name="Footprint">Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/drv8871.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="IN2" type="input"/>
+        <pin num="3" name="IN1" type="input"/>
+        <pin num="4" name="ILIM" type="passive"/>
+        <pin num="5" name="VM" type="power_in"/>
+        <pin num="6" name="OUT1" type="output"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="OUT2" type="output"/>
+        <pin num="9" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_Expansion" part="TCA9548APWR">
+      <description>Low voltage 8-channel I2C switch with reset, TSSOP-24</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tca9548a.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x7.8mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCA9548APWR</field>
+        <field name="Footprint">Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tca9548a.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="SD0" type="bidirectional"/>
+        <pin num="5" name="SC0" type="output"/>
+        <pin num="6" name="SD1" type="bidirectional"/>
+        <pin num="7" name="SC1" type="output"/>
+        <pin num="8" name="SD2" type="bidirectional"/>
+        <pin num="9" name="SC2" type="output"/>
+        <pin num="10" name="SD3" type="bidirectional"/>
+        <pin num="11" name="SC3" type="output"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="SD4" type="bidirectional"/>
+        <pin num="14" name="SC4" type="output"/>
+        <pin num="15" name="SD5" type="bidirectional"/>
+        <pin num="16" name="SC5" type="output"/>
+        <pin num="17" name="SD6" type="bidirectional"/>
+        <pin num="18" name="SC6" type="output"/>
+        <pin num="19" name="SD7" type="bidirectional"/>
+        <pin num="20" name="SC7" type="output"/>
+        <pin num="21" name="A2" type="input"/>
+        <pin num="22" name="SCL" type="input"/>
+        <pin num="23" name="SDA" type="bidirectional"/>
+        <pin num="24" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Bridged12">
+      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Bridged12</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCM_arduino-library" part="Arduino_Mega2560_Shield">
+      <description>Shield for Arduino Mega 2560</description>
+      <docs>https://docs.arduino.cc/hardware/mega-2560</docs>
+      <footprints>
+        <fp>Arduino_Mega2560_Shield</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">XA</field>
+        <field name="Value">Arduino_Mega2560_Shield</field>
+        <field name="Footprint">PCM_arduino-library:Arduino_Mega2560_Shield</field>
+        <field name="Datasheet">https://docs.arduino.cc/hardware/mega-2560</field>
+      </fields>
+      <pins>
+        <pin num="3V3" name="3.3V" type="power_out"/>
+        <pin num="5V1" name="5V" type="power_in"/>
+        <pin num="5V2" name="SPI_5V" type="power_in"/>
+        <pin num="5V3" name="5V" type="power_in"/>
+        <pin num="5V4" name="5V" type="power_in"/>
+        <pin num="A0" name="A0" type="bidirectional"/>
+        <pin num="A1" name="A1" type="bidirectional"/>
+        <pin num="A2" name="A2" type="bidirectional"/>
+        <pin num="A3" name="A3" type="bidirectional"/>
+        <pin num="A4" name="A4" type="bidirectional"/>
+        <pin num="A5" name="A5" type="bidirectional"/>
+        <pin num="A6" name="A6" type="bidirectional"/>
+        <pin num="A7" name="A7" type="bidirectional"/>
+        <pin num="A8" name="A8" type="bidirectional"/>
+        <pin num="A9" name="A9" type="bidirectional"/>
+        <pin num="A10" name="A10" type="bidirectional"/>
+        <pin num="A11" name="A11" type="bidirectional"/>
+        <pin num="A12" name="A12" type="bidirectional"/>
+        <pin num="A13" name="A13" type="bidirectional"/>
+        <pin num="A14" name="A14" type="bidirectional"/>
+        <pin num="A15" name="A15" type="bidirectional"/>
+        <pin num="AREF" name="AREF" type="input"/>
+        <pin num="D0" name="D0/RX0" type="bidirectional"/>
+        <pin num="D1" name="D1/TX0" type="bidirectional"/>
+        <pin num="D2" name="D2_INT0" type="bidirectional"/>
+        <pin num="D3" name="D3_INT1" type="bidirectional"/>
+        <pin num="D4" name="D4" type="bidirectional"/>
+        <pin num="D5" name="D5" type="bidirectional"/>
+        <pin num="D6" name="D6" type="bidirectional"/>
+        <pin num="D7" name="D7" type="bidirectional"/>
+        <pin num="D8" name="D8" type="bidirectional"/>
+        <pin num="D9" name="D9" type="bidirectional"/>
+        <pin num="D10" name="D10" type="bidirectional"/>
+        <pin num="D11" name="D11" type="bidirectional"/>
+        <pin num="D12" name="D12" type="bidirectional"/>
+        <pin num="D13" name="D13" type="bidirectional"/>
+        <pin num="D14" name="D14/TX3" type="bidirectional"/>
+        <pin num="D15" name="D15/RX3" type="bidirectional"/>
+        <pin num="D16" name="D16/TX2" type="bidirectional"/>
+        <pin num="D17" name="D17/RX2" type="bidirectional"/>
+        <pin num="D18" name="D18/TX1" type="bidirectional"/>
+        <pin num="D19" name="D19/RX1" type="bidirectional"/>
+        <pin num="D20" name="D20/SDA" type="bidirectional"/>
+        <pin num="D21" name="D21/SCL" type="bidirectional"/>
+        <pin num="D22" name="D22" type="bidirectional"/>
+        <pin num="D23" name="D23" type="bidirectional"/>
+        <pin num="D24" name="D24" type="bidirectional"/>
+        <pin num="D25" name="D25" type="bidirectional"/>
+        <pin num="D26" name="D26" type="bidirectional"/>
+        <pin num="D27" name="D27" type="bidirectional"/>
+        <pin num="D28" name="D28" type="bidirectional"/>
+        <pin num="D29" name="D29" type="bidirectional"/>
+        <pin num="D30" name="D30" type="bidirectional"/>
+        <pin num="D31" name="D31" type="bidirectional"/>
+        <pin num="D32" name="D32" type="bidirectional"/>
+        <pin num="D33" name="D33" type="bidirectional"/>
+        <pin num="D34" name="D34" type="bidirectional"/>
+        <pin num="D35" name="D35" type="bidirectional"/>
+        <pin num="D36" name="D36" type="bidirectional"/>
+        <pin num="D37" name="D37" type="bidirectional"/>
+        <pin num="D38" name="D38" type="bidirectional"/>
+        <pin num="D39" name="D39" type="bidirectional"/>
+        <pin num="D40" name="D40" type="bidirectional"/>
+        <pin num="D41" name="D41" type="bidirectional"/>
+        <pin num="D42" name="D42" type="bidirectional"/>
+        <pin num="D43" name="D43" type="bidirectional"/>
+        <pin num="D44" name="D44" type="bidirectional"/>
+        <pin num="D45" name="D45" type="bidirectional"/>
+        <pin num="D46" name="D46" type="bidirectional"/>
+        <pin num="D47" name="D47" type="bidirectional"/>
+        <pin num="D48" name="D48" type="bidirectional"/>
+        <pin num="D49" name="D49" type="bidirectional"/>
+        <pin num="D50" name="D50_MISO" type="bidirectional"/>
+        <pin num="D51" name="D51_MOSI" type="bidirectional"/>
+        <pin num="D52" name="D52_SCK" type="bidirectional"/>
+        <pin num="D53" name="D53_CS" type="bidirectional"/>
+        <pin num="GND1" name="GND" type="power_in"/>
+        <pin num="GND2" name="GND" type="power_in"/>
+        <pin num="GND3" name="GND" type="power_in"/>
+        <pin num="GND4" name="SPI_GND" type="power_in"/>
+        <pin num="GND5" name="GND" type="power_in"/>
+        <pin num="GND6" name="GND" type="power_in"/>
+        <pin num="IORF" name="IOREF" type="output"/>
+        <pin num="MISO" name="SPI_MISO" type="input"/>
+        <pin num="MOSI" name="SPI_MOSI" type="output"/>
+        <pin num="RST1" name="RESET" type="open_collector"/>
+        <pin num="RST2" name="SPI_RESET" type="open_collector"/>
+        <pin num="SCK" name="SPI_SCK" type="output"/>
+        <pin num="SCL" name="SCL" type="bidirectional"/>
+        <pin num="SDA" name="SDA" type="bidirectional"/>
+        <pin num="VIN" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AMS1117-3.3">
+      <description>1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223</description>
+      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117-3.3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.advanced-monolithic.com/pdf/ds1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7808">
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 8V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7808</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="LMR33630CDDA">
+      <description>Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=3A, F=2100kHz, Adjustable output voltage, HSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lmr33630.pdf</docs>
+      <footprints>
+        <fp>Texas*HSOP*1EP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMR33630CDDA</field>
+        <field name="Footprint">Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lmr33630.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PGND" type="power_in"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="PG" type="open_collector"/>
+        <pin num="5" name="FB" type="input"/>
+        <pin num="6" name="VCC" type="power_out"/>
+        <pin num="7" name="BOOT" type="input"/>
+        <pin num="8" name="SW" type="output"/>
+        <pin num="9" name="AGND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="TPS3700DDCR" part="TPS3700DDCR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS3700DDCR</field>
+        <field name="Footprint">SOT95P280X110-6N</field>
+        <field name="PARTREV">G</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.10 mm</field>
+        <field name="MANUFACTURER">Texas Instruments</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUTA" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="INA+" type="input"/>
+        <pin num="4" name="INB-" type="input"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="OUTB" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Driver_Motor">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Driver_Motor.kicad_sym</uri>
+    </library>
+    <library logical="Interface_Expansion">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Interface_Expansion.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="PCM_arduino-library">
+      <uri>C:\Users\Nutzer\Documents\KiCad\7.0\3rdparty/symbols/com_github_alarm-siren_arduino-kicad-library/arduino-library.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="TPS3700DDCR">
+      <uri>C:\Users\Nutzer\OneDrive\Projekte\RocciShield/external_libs/TPS3700DDCR.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D31" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F27" pin="1" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP10" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP11" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP8" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP9" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D24" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D25" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D28" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D29" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D30" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F26" pin="1" pintype="passive"/>
+      <node ref="JP1" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP10" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP11" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP2" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP3" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP4" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP5" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP6" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP7" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP8" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP9" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U5" pin="24" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="3" name="+8V">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="OUT" pintype="power_out"/>
+      <node ref="XA1" pin="VIN" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="4" name="+12V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="VM" pintype="power_in"/>
+      <node ref="U7" pin="5" pinfunction="VM" pintype="power_in"/>
+      <node ref="U8" pin="5" pinfunction="VM" pintype="power_in"/>
+      <node ref="U9" pin="5" pinfunction="VM" pintype="power_in"/>
+    </net>
+    <net code="5" name="/12V_after_fuse">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F2" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="6" name="/12V_input">
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="7" name="/Boot">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="BOOT" pintype="input"/>
+    </net>
+    <net code="8" name="/FB">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="9" name="/M1_1">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="OUT1" pintype="output"/>
+    </net>
+    <net code="10" name="/M1_2">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U6" pin="8" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="11" name="/M2_1">
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="OUT1" pintype="output"/>
+    </net>
+    <net code="12" name="/M2_2">
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="13" name="/M3_1">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="U8" pin="6" pinfunction="OUT1" pintype="output"/>
+      <node ref="U9" pin="6" pinfunction="OUT1" pintype="output"/>
+    </net>
+    <net code="14" name="/M3_2">
+      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D26" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D27" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U8" pin="8" pinfunction="OUT2" pintype="output"/>
+      <node ref="U9" pin="8" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="15" name="/PG">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="PG" pintype="open_collector"/>
+    </net>
+    <net code="16" name="/SW">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="17" name="ADC_BAT">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="INA+" pintype="input"/>
+      <node ref="XA1" pin="A0" pinfunction="A0" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="ERROR_LED">
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="XA1" pin="D2" pinfunction="D2_INT0" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D30" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D31" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J14" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP6" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP7" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="U7" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="U8" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U9" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="U9" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="XA1" pin="GND1" pinfunction="GND" pintype="power_in"/>
+      <node ref="XA1" pin="GND2" pinfunction="GND" pintype="power_in"/>
+      <node ref="XA1" pin="GND3" pinfunction="GND" pintype="power_in"/>
+      <node ref="XA1" pin="GND5" pinfunction="GND" pintype="power_in"/>
+      <node ref="XA1" pin="GND6" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="20" name="I2C_RESET">
+      <node ref="U5" pin="3" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="21" name="I2C_SCL">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="22" pinfunction="SCL" pintype="input"/>
+      <node ref="XA1" pin="D21" pinfunction="D21/SCL" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="I2C_SDA">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="23" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="XA1" pin="D20" pinfunction="D20/SDA" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="IOREF">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="XA1" pin="IORF" pinfunction="IOREF" pintype="output"/>
+    </net>
+    <net code="24" name="M1_IN1">
+      <node ref="TP15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="IN1" pintype="input"/>
+      <node ref="XA1" pin="D4" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="M1_IN2">
+      <node ref="TP16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="IN2" pintype="input"/>
+      <node ref="XA1" pin="D3" pinfunction="D3_INT1" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="M2_IN1">
+      <node ref="TP17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="IN1" pintype="input"/>
+      <node ref="XA1" pin="D6" pinfunction="D6" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="M2_IN2">
+      <node ref="TP18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="IN2" pintype="input"/>
+      <node ref="XA1" pin="D5" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="M3_IN1">
+      <node ref="TP19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="IN1" pintype="input"/>
+      <node ref="XA1" pin="D8" pinfunction="D8" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="M3_IN2">
+      <node ref="TP20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="IN2" pintype="input"/>
+      <node ref="XA1" pin="D7" pinfunction="D7" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="M4_IN1">
+      <node ref="TP21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="IN1" pintype="input"/>
+      <node ref="XA1" pin="D10" pinfunction="D10" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="M4_IN2">
+      <node ref="TP22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U9" pin="2" pinfunction="IN2" pintype="input"/>
+      <node ref="XA1" pin="D9" pinfunction="D9" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F3" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="SC0" pintype="output"/>
+    </net>
+    <net code="33" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F4" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="SD0" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F6" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="SC1" pintype="output"/>
+    </net>
+    <net code="35" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="SD1" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="Net-(D6-K)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D7-K)">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(D8-K)">
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(D9-A)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F9" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U5" pin="9" pinfunction="SC2" pintype="output"/>
+    </net>
+    <net code="40" name="Net-(D10-A)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F10" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U5" pin="8" pinfunction="SD2" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="Net-(D11-A)">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F12" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U5" pin="11" pinfunction="SC3" pintype="output"/>
+    </net>
+    <net code="42" name="Net-(D12-A)">
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F13" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U5" pin="10" pinfunction="SD3" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="Net-(D13-K)">
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(D14-A)">
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(D15-A)">
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F15" pin="1" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U5" pin="14" pinfunction="SC4" pintype="output"/>
+    </net>
+    <net code="46" name="Net-(D16-A)">
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F16" pin="1" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U5" pin="13" pinfunction="SD4" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="Net-(D17-K)">
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(D18-K)">
+      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(D19-A)">
+      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(D20-A)">
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F18" pin="1" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="U5" pin="16" pinfunction="SC5" pintype="output"/>
+    </net>
+    <net code="51" name="Net-(D21-A)">
+      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F19" pin="1" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="U5" pin="15" pinfunction="SD5" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="Net-(D22-K)">
+      <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(D23-A)">
+      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(D24-A)">
+      <node ref="D24" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F21" pin="1" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="U5" pin="18" pinfunction="SC6" pintype="output"/>
+    </net>
+    <net code="55" name="Net-(D25-A)">
+      <node ref="D25" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F22" pin="1" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="U5" pin="17" pinfunction="SD6" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="Net-(D26-K)">
+      <node ref="D26" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(D27-A)">
+      <node ref="D27" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(D28-A)">
+      <node ref="D28" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F24" pin="1" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="U5" pin="20" pinfunction="SC7" pintype="output"/>
+    </net>
+    <net code="59" name="Net-(D29-A)">
+      <node ref="D29" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F25" pin="1" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="U5" pin="19" pinfunction="SD7" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="Net-(J2-Pin_2)">
+      <node ref="F4" pin="2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(J2-Pin_3)">
+      <node ref="F3" pin="2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(J2-Pin_4)">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(J3-Pin_2)">
+      <node ref="F7" pin="2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(J3-Pin_3)">
+      <node ref="F6" pin="2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(J3-Pin_4)">
+      <node ref="F5" pin="2" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(J4-Pin_2)">
+      <node ref="F10" pin="2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(J4-Pin_3)">
+      <node ref="F9" pin="2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(J4-Pin_4)">
+      <node ref="F8" pin="2" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(J5-Pin_2)">
+      <node ref="F13" pin="2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(J5-Pin_3)">
+      <node ref="F12" pin="2" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(J5-Pin_4)">
+      <node ref="F11" pin="2" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(J7-Pin_2)">
+      <node ref="F16" pin="2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(J7-Pin_3)">
+      <node ref="F15" pin="2" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(J7-Pin_4)">
+      <node ref="F14" pin="2" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(J9-Pin_2)">
+      <node ref="F19" pin="2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(J9-Pin_3)">
+      <node ref="F18" pin="2" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(J9-Pin_4)">
+      <node ref="F17" pin="2" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(J11-Pin_2)">
+      <node ref="F22" pin="2" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(J11-Pin_3)">
+      <node ref="F21" pin="2" pintype="passive"/>
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(J11-Pin_4)">
+      <node ref="F20" pin="2" pintype="passive"/>
+      <node ref="J11" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(J13-Pin_2)">
+      <node ref="F25" pin="2" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(J13-Pin_3)">
+      <node ref="F24" pin="2" pintype="passive"/>
+      <node ref="J13" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(J13-Pin_4)">
+      <node ref="F23" pin="2" pintype="passive"/>
+      <node ref="J13" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(J14-Pin_2)">
+      <node ref="F26" pin="2" pintype="passive"/>
+      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(J14-Pin_3)">
+      <node ref="F27" pin="2" pintype="passive"/>
+      <node ref="J14" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="86" name="Net-(JP1-C)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="87" name="Net-(JP2-C)">
+      <node ref="F5" pin="1" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="88" name="Net-(JP3-C)">
+      <node ref="F8" pin="1" pintype="passive"/>
+      <node ref="JP3" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="89" name="Net-(JP4-C)">
+      <node ref="F11" pin="1" pintype="passive"/>
+      <node ref="JP4" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="90" name="Net-(JP5-C)">
+      <node ref="JP5" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U5" pin="21" pinfunction="A2" pintype="input"/>
+    </net>
+    <net code="91" name="Net-(JP6-C)">
+      <node ref="JP6" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="A1" pintype="input"/>
+    </net>
+    <net code="92" name="Net-(JP7-C)">
+      <node ref="JP7" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="A0" pintype="input"/>
+    </net>
+    <net code="93" name="Net-(JP8-C)">
+      <node ref="F14" pin="1" pintype="passive"/>
+      <node ref="JP8" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="94" name="Net-(JP9-C)">
+      <node ref="F17" pin="1" pintype="passive"/>
+      <node ref="JP9" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+    </net>
+    <net code="95" name="Net-(JP10-C)">
+      <node ref="F20" pin="1" pintype="passive"/>
+      <node ref="JP10" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+    </net>
+    <net code="96" name="Net-(JP11-C)">
+      <node ref="F23" pin="1" pintype="passive"/>
+      <node ref="JP11" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+    </net>
+    <net code="97" name="Net-(Q1-G)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="OUTB" pintype="output"/>
+    </net>
+    <net code="98" name="Net-(U1-VCC)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="VCC" pintype="power_out"/>
+    </net>
+    <net code="99" name="Net-(U4-INB-)">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="TP14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="INB-" pintype="input"/>
+    </net>
+    <net code="100" name="Net-(U4-OUTA)">
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="OUTA" pintype="output"/>
+    </net>
+    <net code="101" name="Net-(U6-ILIM)">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="ILIM" pintype="passive"/>
+    </net>
+    <net code="102" name="Net-(U7-ILIM)">
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="ILIM" pintype="passive"/>
+    </net>
+    <net code="103" name="Net-(U8-ILIM)">
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="U8" pin="4" pinfunction="ILIM" pintype="passive"/>
+    </net>
+    <net code="104" name="Net-(U9-ILIM)">
+      <node ref="R39" pin="1" pintype="passive"/>
+      <node ref="U9" pin="4" pinfunction="ILIM" pintype="passive"/>
+    </net>
+    <net code="105" name="unconnected-(XA1-3.3V-Pad3V3)">
+      <node ref="XA1" pin="3V3" pinfunction="3.3V" pintype="power_out+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(XA1-5V-Pad5V1)">
+      <node ref="XA1" pin="5V1" pinfunction="5V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(XA1-5V-Pad5V3)">
+      <node ref="XA1" pin="5V3" pinfunction="5V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(XA1-5V-Pad5V4)">
+      <node ref="XA1" pin="5V4" pinfunction="5V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(XA1-D0{slash}RX0-PadD0)">
+      <node ref="XA1" pin="D0" pinfunction="D0/RX0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(XA1-D1{slash}TX0-PadD1)">
+      <node ref="XA1" pin="D1" pinfunction="D1/TX0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(XA1-D14{slash}TX3-PadD14)">
+      <node ref="XA1" pin="D14" pinfunction="D14/TX3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(XA1-D15{slash}RX3-PadD15)">
+      <node ref="XA1" pin="D15" pinfunction="D15/RX3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(XA1-D16{slash}TX2-PadD16)">
+      <node ref="XA1" pin="D16" pinfunction="D16/TX2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(XA1-D17{slash}RX2-PadD17)">
+      <node ref="XA1" pin="D17" pinfunction="D17/RX2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(XA1-D18{slash}TX1-PadD18)">
+      <node ref="XA1" pin="D18" pinfunction="D18/TX1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(XA1-D19{slash}RX1-PadD19)">
+      <node ref="XA1" pin="D19" pinfunction="D19/RX1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(XA1-D50_MISO-PadD50)">
+      <node ref="XA1" pin="D50" pinfunction="D50_MISO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(XA1-D51_MOSI-PadD51)">
+      <node ref="XA1" pin="D51" pinfunction="D51_MOSI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(XA1-D52_SCK-PadD52)">
+      <node ref="XA1" pin="D52" pinfunction="D52_SCK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(XA1-D53_CS-PadD53)">
+      <node ref="XA1" pin="D53" pinfunction="D53_CS" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(XA1-PadA1)">
+      <node ref="XA1" pin="A1" pinfunction="A1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(XA1-PadA2)">
+      <node ref="XA1" pin="A2" pinfunction="A2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(XA1-PadA3)">
+      <node ref="XA1" pin="A3" pinfunction="A3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(XA1-PadA4)">
+      <node ref="XA1" pin="A4" pinfunction="A4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(XA1-PadA5)">
+      <node ref="XA1" pin="A5" pinfunction="A5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(XA1-PadA6)">
+      <node ref="XA1" pin="A6" pinfunction="A6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="127" name="unconnected-(XA1-PadA7)">
+      <node ref="XA1" pin="A7" pinfunction="A7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="128" name="unconnected-(XA1-PadA8)">
+      <node ref="XA1" pin="A8" pinfunction="A8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="129" name="unconnected-(XA1-PadA9)">
+      <node ref="XA1" pin="A9" pinfunction="A9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="130" name="unconnected-(XA1-PadA10)">
+      <node ref="XA1" pin="A10" pinfunction="A10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="131" name="unconnected-(XA1-PadA11)">
+      <node ref="XA1" pin="A11" pinfunction="A11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="132" name="unconnected-(XA1-PadA12)">
+      <node ref="XA1" pin="A12" pinfunction="A12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="133" name="unconnected-(XA1-PadA13)">
+      <node ref="XA1" pin="A13" pinfunction="A13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="134" name="unconnected-(XA1-PadA14)">
+      <node ref="XA1" pin="A14" pinfunction="A14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="135" name="unconnected-(XA1-PadA15)">
+      <node ref="XA1" pin="A15" pinfunction="A15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="136" name="unconnected-(XA1-PadAREF)">
+      <node ref="XA1" pin="AREF" pinfunction="AREF" pintype="input+no_connect"/>
+    </net>
+    <net code="137" name="unconnected-(XA1-PadD11)">
+      <node ref="XA1" pin="D11" pinfunction="D11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="138" name="unconnected-(XA1-PadD12)">
+      <node ref="XA1" pin="D12" pinfunction="D12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="139" name="unconnected-(XA1-PadD13)">
+      <node ref="XA1" pin="D13" pinfunction="D13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="140" name="unconnected-(XA1-PadD22)">
+      <node ref="XA1" pin="D22" pinfunction="D22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="141" name="unconnected-(XA1-PadD23)">
+      <node ref="XA1" pin="D23" pinfunction="D23" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="142" name="unconnected-(XA1-PadD24)">
+      <node ref="XA1" pin="D24" pinfunction="D24" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="143" name="unconnected-(XA1-PadD25)">
+      <node ref="XA1" pin="D25" pinfunction="D25" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="144" name="unconnected-(XA1-PadD26)">
+      <node ref="XA1" pin="D26" pinfunction="D26" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="145" name="unconnected-(XA1-PadD27)">
+      <node ref="XA1" pin="D27" pinfunction="D27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="146" name="unconnected-(XA1-PadD28)">
+      <node ref="XA1" pin="D28" pinfunction="D28" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="147" name="unconnected-(XA1-PadD29)">
+      <node ref="XA1" pin="D29" pinfunction="D29" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="148" name="unconnected-(XA1-PadD30)">
+      <node ref="XA1" pin="D30" pinfunction="D30" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="149" name="unconnected-(XA1-PadD31)">
+      <node ref="XA1" pin="D31" pinfunction="D31" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="150" name="unconnected-(XA1-PadD32)">
+      <node ref="XA1" pin="D32" pinfunction="D32" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="151" name="unconnected-(XA1-PadD33)">
+      <node ref="XA1" pin="D33" pinfunction="D33" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="152" name="unconnected-(XA1-PadD34)">
+      <node ref="XA1" pin="D34" pinfunction="D34" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="153" name="unconnected-(XA1-PadD35)">
+      <node ref="XA1" pin="D35" pinfunction="D35" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="154" name="unconnected-(XA1-PadD36)">
+      <node ref="XA1" pin="D36" pinfunction="D36" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="155" name="unconnected-(XA1-PadD37)">
+      <node ref="XA1" pin="D37" pinfunction="D37" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="156" name="unconnected-(XA1-PadD38)">
+      <node ref="XA1" pin="D38" pinfunction="D38" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="157" name="unconnected-(XA1-PadD39)">
+      <node ref="XA1" pin="D39" pinfunction="D39" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="158" name="unconnected-(XA1-PadD40)">
+      <node ref="XA1" pin="D40" pinfunction="D40" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="159" name="unconnected-(XA1-PadD41)">
+      <node ref="XA1" pin="D41" pinfunction="D41" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="160" name="unconnected-(XA1-PadD42)">
+      <node ref="XA1" pin="D42" pinfunction="D42" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="161" name="unconnected-(XA1-PadD43)">
+      <node ref="XA1" pin="D43" pinfunction="D43" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="162" name="unconnected-(XA1-PadD44)">
+      <node ref="XA1" pin="D44" pinfunction="D44" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="163" name="unconnected-(XA1-PadD45)">
+      <node ref="XA1" pin="D45" pinfunction="D45" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="164" name="unconnected-(XA1-PadD46)">
+      <node ref="XA1" pin="D46" pinfunction="D46" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="165" name="unconnected-(XA1-PadD47)">
+      <node ref="XA1" pin="D47" pinfunction="D47" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="166" name="unconnected-(XA1-PadD48)">
+      <node ref="XA1" pin="D48" pinfunction="D48" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="167" name="unconnected-(XA1-PadD49)">
+      <node ref="XA1" pin="D49" pinfunction="D49" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="168" name="unconnected-(XA1-PadSCL)">
+      <node ref="XA1" pin="SCL" pinfunction="SCL" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="169" name="unconnected-(XA1-PadSDA)">
+      <node ref="XA1" pin="SDA" pinfunction="SDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="170" name="unconnected-(XA1-RESET-PadRST1)">
+      <node ref="XA1" pin="RST1" pinfunction="RESET" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="171" name="unconnected-(XA1-SPI_5V-Pad5V2)">
+      <node ref="XA1" pin="5V2" pinfunction="SPI_5V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="172" name="unconnected-(XA1-SPI_GND-PadGND4)">
+      <node ref="XA1" pin="GND4" pinfunction="SPI_GND" pintype="power_in+no_connect"/>
+    </net>
+    <net code="173" name="unconnected-(XA1-SPI_MISO-PadMISO)">
+      <node ref="XA1" pin="MISO" pinfunction="SPI_MISO" pintype="input+no_connect"/>
+    </net>
+    <net code="174" name="unconnected-(XA1-SPI_MOSI-PadMOSI)">
+      <node ref="XA1" pin="MOSI" pinfunction="SPI_MOSI" pintype="output+no_connect"/>
+    </net>
+    <net code="175" name="unconnected-(XA1-SPI_RESET-PadRST2)">
+      <node ref="XA1" pin="RST2" pinfunction="SPI_RESET" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="176" name="unconnected-(XA1-SPI_SCK-PadSCK)">
+      <node ref="XA1" pin="SCK" pinfunction="SPI_SCK" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>
