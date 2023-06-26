@@ -351,6 +351,57 @@
         )
       )
     )
+    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.635 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "C" (at 0.635 -2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0.9652 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "cap capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_0_1"
+        (polyline
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "C_1_1"
+        (pin passive line (at 0 3.81 270) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:C_Polarized" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -2586,6 +2637,9 @@
   (junction (at 363.22 195.58) (diameter 0) (color 0 0 0 0)
     (uuid 2fbffe6d-a1b4-488f-82e7-f5e01060a48f)
   )
+  (junction (at 203.2 68.58) (diameter 0) (color 0 0 0 0)
+    (uuid 3067ef90-a533-4cfc-b0d9-ce7c19e18926)
+  )
   (junction (at 397.51 83.82) (diameter 0) (color 0 0 0 0)
     (uuid 3185e17f-606c-4809-837c-f1f715e92d65)
   )
@@ -2639,6 +2693,9 @@
   )
   (junction (at 389.89 83.82) (diameter 0) (color 0 0 0 0)
     (uuid 59cc41dd-45b1-4c5a-b604-1e1c3feff909)
+  )
+  (junction (at 204.47 215.9) (diameter 0) (color 0 0 0 0)
+    (uuid 5a610833-0a92-4a6f-94ec-c797c1b5331f)
   )
   (junction (at 120.65 180.34) (diameter 0) (color 0 0 0 0)
     (uuid 5b1f424a-1667-463f-83f2-4a1d02935cb6)
@@ -2729,9 +2786,6 @@
   )
   (junction (at 241.3 68.58) (diameter 0) (color 0 0 0 0)
     (uuid 97b070a3-bfcb-4af6-a608-5f9d08536153)
-  )
-  (junction (at 204.47 215.9) (diameter 0) (color 0 0 0 0)
-    (uuid 9b573556-9336-4813-b665-8c05b4cc9032)
   )
   (junction (at 378.46 59.69) (diameter 0) (color 0 0 0 0)
     (uuid 9b57d57e-2eaa-4681-9684-006070963728)
@@ -3752,6 +3806,10 @@
     (stroke (width 0) (type default))
     (uuid 4e080348-1948-4dba-bb37-aa898c1c45b1)
   )
+  (wire (pts (xy 194.31 68.58) (xy 203.2 68.58))
+    (stroke (width 0) (type default))
+    (uuid 4e52eb96-e1ea-467a-909e-bb395136b6e9)
+  )
   (wire (pts (xy 278.13 68.58) (xy 281.94 68.58))
     (stroke (width 0) (type default))
     (uuid 4e74b5c7-bb9e-4e69-b546-5982bc66a936)
@@ -4115,6 +4173,10 @@
   (wire (pts (xy 113.03 255.27) (xy 77.47 255.27))
     (stroke (width 0) (type default))
     (uuid 7168ecf2-a6a0-4e3e-a4ff-3ca7fda1d024)
+  )
+  (wire (pts (xy 194.31 69.215) (xy 194.31 68.58))
+    (stroke (width 0) (type default))
+    (uuid 7194786f-feb5-4de4-ac9d-08a4640e146e)
   )
   (wire (pts (xy 363.22 165.1) (xy 363.22 167.64))
     (stroke (width 0) (type default))
@@ -4732,7 +4794,7 @@
     (stroke (width 0) (type default))
     (uuid af649897-6c70-45a4-a1c0-2acbc15cd21e)
   )
-  (wire (pts (xy 204.47 223.52) (xy 204.47 224.79))
+  (wire (pts (xy 204.47 224.79) (xy 204.47 227.33))
     (stroke (width 0) (type default))
     (uuid af76f062-5cd1-45d0-91fc-8d36b475f2d2)
   )
@@ -4852,6 +4914,10 @@
     (stroke (width 0) (type default))
     (uuid b7dc7057-a918-4cc7-9bb3-6190ab2c43a0)
   )
+  (wire (pts (xy 194.31 76.835) (xy 194.31 77.47))
+    (stroke (width 0) (type default))
+    (uuid b7e515ac-1c5e-483a-bd80-e38fd88ce796)
+  )
   (wire (pts (xy 396.24 111.76) (xy 396.24 113.03))
     (stroke (width 0) (type default))
     (uuid b806bbbd-e5fc-4c67-8455-f8ef1ba38230)
@@ -4903,6 +4969,10 @@
   (wire (pts (xy 115.57 233.68) (xy 114.3 233.68))
     (stroke (width 0) (type default))
     (uuid bb178dfd-71a1-43a1-9f03-3370cf2230aa)
+  )
+  (wire (pts (xy 204.47 217.17) (xy 204.47 215.9))
+    (stroke (width 0) (type default))
+    (uuid bb31582b-4b96-4cbb-af09-4f576b3454aa)
   )
   (wire (pts (xy 369.57 247.65) (xy 369.57 241.3))
     (stroke (width 0) (type default))
@@ -5542,7 +5612,8 @@
     (effects (font (size 3 3)) (justify left bottom))
     (uuid 6b24aa10-cf0d-4ee9-9385-0e216fd7a9ba)
   )
-  (text "at 10,8 V it turns off\nat 11 V it turns on again" (at 217.17 102.87 0)
+  (text "at 10,3 V it turns off\nat 10,8 V it turns on again\nSee TPS3700_Lipo_protection_calc.xlsx for reference\n"
+    (at 215.9 106.68 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid aecc66bb-ffdc-4ba9-97df-d59241f91ed5)
   )
@@ -5847,10 +5918,36 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 375.92 116.84 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 01a006aa-0e97-45d5-8051-01d6b656dfec)
+    (property "Reference" "C15" (at 378.841 116.1963 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 378.841 118.1173 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 376.8852 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 375.92 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 486a5fe4-de51-43b1-8f8b-b03e4194e50a))
+    (pin "2" (uuid ec75229f-fc8e-4776-b365-88e43be86afb))
+    (instances
+      (project "RocciShield"
+        (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
+          (reference "C15") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 256.54 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01ac5077-8ae4-4019-bbdc-ecaffb5553a6)
-    (property "Reference" "R11" (at 258.318 76.8263 0)
+    (property "Reference" "R14" (at 258.318 76.8263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 258.318 78.7473 0)
@@ -5867,7 +5964,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R11") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -5876,13 +5973,13 @@
   (symbol (lib_id "Device:R") (at 346.71 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 01ecea9f-b920-4ba3-81b7-5938d902c1ea)
-    (property "Reference" "R34" (at 347.98 209.55 0)
+    (property "Reference" "R51" (at 347.98 209.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "30k" (at 347.98 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 344.932 210.82 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 344.932 210.82 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 346.71 210.82 0)
@@ -5893,7 +5990,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R34") (unit 1)
+          (reference "R51") (unit 1)
         )
       )
     )
@@ -5902,7 +5999,7 @@
   (symbol (lib_id "power:GND") (at 25.4 246.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 035ba520-bfca-4c31-8011-afe156a55db0)
-    (property "Reference" "#PWR0109" (at 25.4 252.73 0)
+    (property "Reference" "#PWR0108" (at 25.4 252.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 25.4 250.5155 0)
@@ -5918,7 +6015,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -5953,7 +6050,7 @@
   (symbol (lib_id "power:GND") (at 254 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06bee091-45cf-4f2c-9efa-a6507f065f78)
-    (property "Reference" "#PWR043" (at 254 104.14 0)
+    (property "Reference" "#PWR041" (at 254 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 254 101.9255 0)
@@ -5969,7 +6066,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -5978,7 +6075,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Socket") (at 64.77 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06cdc17a-8973-4330-a72f-69ad6c76951f)
-    (property "Reference" "J14" (at 65.4812 233.0363 0)
+    (property "Reference" "J12" (at 65.4812 233.0363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Power" (at 65.4812 234.9573 0)
@@ -5997,7 +6094,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "J14") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -6031,7 +6128,7 @@
   (symbol (lib_id "power:GND") (at 173.99 255.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b43c87a-4054-4a05-ac19-ff42972100d1)
-    (property "Reference" "#PWR0103" (at 173.99 261.62 0)
+    (property "Reference" "#PWR0110" (at 173.99 261.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 173.99 259.4055 0)
@@ -6047,7 +6144,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -6085,7 +6182,7 @@
   (symbol (lib_id "Device:LED") (at 355.6 241.3 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c4afca1-7444-40ba-84b4-c1c20144ee79)
-    (property "Reference" "D26" (at 357.632 239.0688 90)
+    (property "Reference" "D28" (at 357.632 239.0688 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GR" (at 358.14 241.3 90)
@@ -6105,7 +6202,33 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "D26") (unit 1)
+          (reference "D28") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 361.95 43.18 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0dd78394-84c6-4c8e-8394-f539f0d323dc)
+    (property "Reference" "C3" (at 364.871 42.5363 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 364.871 44.4573 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 362.9152 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 361.95 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d98c868c-5d79-4ea3-ac58-d6f6e9b03b37))
+    (pin "2" (uuid 012a56de-30eb-4351-9081-08977142cb16))
+    (instances
+      (project "RocciShield"
+        (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -6200,13 +6323,13 @@
   (symbol (lib_id "Device:R") (at 151.13 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 11318356-2a67-4e37-ad44-d35e88292883)
-    (property "Reference" "R42" (at 151.13 40.4241 90)
+    (property "Reference" "R3" (at 151.13 40.4241 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 151.13 42.3451 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 151.13 46.228 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 151.13 46.228 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 44.45 0)
@@ -6217,7 +6340,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R42") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -6251,7 +6374,7 @@
   (symbol (lib_id "power:GND") (at 316.23 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 197d6110-3aad-47e4-901b-a253af8695bc)
-    (property "Reference" "#PWR022" (at 316.23 72.39 0)
+    (property "Reference" "#PWR020" (at 316.23 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 316.23 70.1755 0)
@@ -6267,7 +6390,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -6305,7 +6428,7 @@
   (symbol (lib_id "power:+3V3") (at 114.3 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1af3e97b-86d7-4129-975e-915a6f55db66)
-    (property "Reference" "#PWR096" (at 114.3 236.22 0)
+    (property "Reference" "#PWR0100" (at 114.3 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 114.3 228.9081 0)
@@ -6321,7 +6444,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR0100") (unit 1)
         )
       )
     )
@@ -6330,7 +6453,7 @@
   (symbol (lib_id "power:GND") (at 289.56 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c4c8cb4-4e8a-49c0-bd18-15155fd0d2dc)
-    (property "Reference" "#PWR033" (at 289.56 99.06 0)
+    (property "Reference" "#PWR034" (at 289.56 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 289.56 96.8455 0)
@@ -6346,7 +6469,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -6382,7 +6505,7 @@
   (symbol (lib_id "power:+12V") (at 332.74 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ce7fb07-383a-4531-9b24-39920b973913)
-    (property "Reference" "#PWR075" (at 332.74 165.1 0)
+    (property "Reference" "#PWR076" (at 332.74 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 328.93 160.02 0)
@@ -6398,7 +6521,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -6407,13 +6530,13 @@
   (symbol (lib_id "Device:R") (at 381 97.79 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ddcdeac-e9a6-430e-bfa0-fb0a3d13d225)
-    (property "Reference" "R60" (at 382.778 97.1463 0)
+    (property "Reference" "R25" (at 382.778 97.1463 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k3" (at 382.778 99.0673 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 382.778 97.79 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 382.778 97.79 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 381 97.79 0)
@@ -6424,7 +6547,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R60") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -6433,7 +6556,7 @@
   (symbol (lib_id "Device:R") (at 113.03 242.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e0fc23a-4503-4cd8-bc74-c6669f3a1192)
-    (property "Reference" "R40" (at 114.808 241.9263 0)
+    (property "Reference" "R59" (at 114.808 241.9263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 114.808 243.8473 0)
@@ -6450,36 +6573,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R40") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Polarized") (at 341.63 88.9 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1e868b55-72e0-4301-b77f-d52e3ac29f13)
-    (property "Reference" "C9" (at 344.17 86.36 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "100n" (at 344.17 88.9 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 340.6648 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 341.63 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C14663" (at 344.17 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5af0ecf2-bd1a-4ec0-a547-6bcfed7f230a))
-    (pin "2" (uuid 31120db7-8798-4107-bb4b-1bbaebc678da))
-    (instances
-      (project "RocciShield"
-        (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "C9") (unit 1)
+          (reference "R59") (unit 1)
         )
       )
     )
@@ -6491,13 +6585,16 @@
     (property "Reference" "C13" (at 355.981 115.3073 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22µ" (at 355.981 117.2283 0)
+    (property "Value" "33µ" (at 355.981 117.2283 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 354.0252 120.65 0)
+    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X" (at 354.0252 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 353.06 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LSCL" "C3009395" (at 353.06 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d15434d3-a7be-4250-8254-86e3a60c1d1b))
@@ -6517,16 +6614,16 @@
     (property "Reference" "C4" (at 389.001 53.0773 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22 µF" (at 388.62 55.88 0)
+    (property "Value" "33µ" (at 388.62 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:CP_Elec_5x3" (at 387.0452 58.42 0)
+    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X" (at 387.0452 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 386.08 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LSCL" "C347540" (at 386.08 54.61 0)
+    (property "LSCL" "C3009395" (at 386.08 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1be25071-434e-4f77-95f4-7b40a6c1a4c3))
@@ -6543,7 +6640,7 @@
   (symbol (lib_id "power:GND") (at 281.94 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 203dadb9-52b2-49b5-9953-c2b4cd570f2c)
-    (property "Reference" "#PWR035" (at 281.94 99.06 0)
+    (property "Reference" "#PWR033" (at 281.94 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 281.94 96.8455 0)
@@ -6559,7 +6656,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -6568,7 +6665,7 @@
   (symbol (lib_id "power:+5V") (at 127 203.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20a51304-937b-43e3-a64e-be7db4f4493e)
-    (property "Reference" "#PWR087" (at 127 207.01 0)
+    (property "Reference" "#PWR088" (at 127 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 127 199.6981 0)
@@ -6584,7 +6681,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -6593,7 +6690,7 @@
   (symbol (lib_id "power:GND") (at 332.74 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20fbe67a-c07b-46ab-88fe-a116bf1003c1)
-    (property "Reference" "#PWR073" (at 332.74 158.75 0)
+    (property "Reference" "#PWR074" (at 332.74 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 332.74 156.5355 0)
@@ -6609,7 +6706,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -6618,7 +6715,7 @@
   (symbol (lib_id "Device:R") (at 119.38 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 214cdb9e-acb2-4b3f-a661-a9f6279488f0)
-    (property "Reference" "R17" (at 121.158 95.8763 0)
+    (property "Reference" "R23" (at 121.158 95.8763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 121.158 97.7973 0)
@@ -6635,7 +6732,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R17") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -6745,7 +6842,7 @@
   (symbol (lib_id "Device:R") (at 363.22 231.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2677eab6-b80e-45a6-8685-c9633c4a1044)
-    (property "Reference" "R38" (at 364.998 230.4963 0)
+    (property "Reference" "R57" (at 364.998 230.4963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 364.998 232.4173 0)
@@ -6762,7 +6859,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R38") (unit 1)
+          (reference "R57") (unit 1)
         )
       )
     )
@@ -6824,35 +6921,6 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 365.76 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 26bc2e5a-fe26-4126-a376-1c93fdf155e1)
-    (property "Reference" "C14" (at 368.681 116.1963 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 368.681 118.1173 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 366.7252 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 365.76 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C14663" (at 368.681 116.1963 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2a0d6235-2ef3-43f1-bff3-209db8dea822))
-    (pin "2" (uuid 6dd998ee-35aa-4789-9159-0c5384b028f0))
-    (instances
-      (project "RocciShield"
-        (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "C14") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Driver_Motor:DRV8871DDA") (at 332.74 229.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2719ccb0-0758-452c-b5a3-195e72c3f9c3)
@@ -6892,7 +6960,7 @@
   (symbol (lib_id "power:GND") (at 346.71 245.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2833e685-b413-438a-9011-0c0cf5051a01)
-    (property "Reference" "#PWR0102" (at 346.71 251.46 0)
+    (property "Reference" "#PWR0107" (at 346.71 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 342.9 246.38 0)
@@ -6908,7 +6976,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -6973,7 +7041,7 @@
   (symbol (lib_id "Device:R") (at 289.56 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2930718d-bf44-472c-969d-655548899a32)
-    (property "Reference" "R12" (at 291.338 83.1763 0)
+    (property "Reference" "R17" (at 291.338 83.1763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330" (at 291.338 85.0973 0)
@@ -6990,7 +7058,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R12") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -7044,7 +7112,7 @@
   (symbol (lib_id "Device:LED") (at 363.22 241.3 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 29eeda55-9a25-4fac-9247-0ec32e931cad)
-    (property "Reference" "D27" (at 365.76 238.76 90)
+    (property "Reference" "D29" (at 365.76 238.76 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "GR" (at 365.76 241.3 90)
@@ -7064,7 +7132,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "D27") (unit 1)
+          (reference "D29") (unit 1)
         )
       )
     )
@@ -7073,7 +7141,7 @@
   (symbol (lib_id "power:GND") (at 215.9 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b5895c4-ad49-4ef0-807c-83f1a950620f)
-    (property "Reference" "#PWR0100" (at 215.9 246.38 0)
+    (property "Reference" "#PWR0105" (at 215.9 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 215.9 244.1655 0)
@@ -7089,7 +7157,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -7232,7 +7300,7 @@
   (symbol (lib_id "Device:R") (at 113.03 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2e4f580b-c190-4076-8d50-ab3ae13da473)
-    (property "Reference" "R24" (at 114.808 155.5663 0)
+    (property "Reference" "R36" (at 114.808 155.5663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 114.808 157.4873 0)
@@ -7249,7 +7317,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R24") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -7291,22 +7359,48 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 194.31 73.025 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 325dde66-435e-4213-97d3-a4d5a2417604)
+    (property "Reference" "C19" (at 197.231 72.3813 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 197.231 74.3023 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 195.2752 76.835 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 194.31 73.025 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f152b941-a4a4-49aa-a8cc-cd34d528fb2a))
+    (pin "2" (uuid b03ba4bc-4791-45cc-b152-db1551a96546))
+    (instances
+      (project "RocciShield"
+        (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
+          (reference "C19") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:D_Zener") (at 34.29 241.3 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32c99862-c6c3-4bda-9d42-ede7ae319c26)
-    (property "Reference" "D30" (at 36.322 240.6563 90)
+    (property "Reference" "D27" (at 36.322 240.6563 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5V1" (at 36.322 242.5773 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 34.29 241.3 0)
+    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 34.29 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 34.29 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C72043" (at 36.322 240.6563 0)
+    (property "LCSC" "C8062" (at 36.322 240.6563 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 85d6b4d2-593c-429f-bbc1-58e8eb58aeed))
@@ -7314,7 +7408,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "D30") (unit 1)
+          (reference "D27") (unit 1)
         )
       )
     )
@@ -7323,7 +7417,7 @@
   (symbol (lib_id "Device:R") (at 43.18 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34576516-95d2-4247-83a5-a1afc39e6342)
-    (property "Reference" "R7" (at 44.958 66.6663 0)
+    (property "Reference" "R9" (at 44.958 66.6663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 44.958 68.5873 0)
@@ -7340,7 +7434,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R7") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -7349,7 +7443,7 @@
   (symbol (lib_id "power:GND") (at 332.74 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3765c4f4-06c9-4548-bf41-282244cecd5e)
-    (property "Reference" "#PWR081" (at 332.74 187.96 0)
+    (property "Reference" "#PWR082" (at 332.74 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 332.74 185.7455 0)
@@ -7365,7 +7459,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
     )
@@ -7399,7 +7493,7 @@
   (symbol (lib_id "Device:R") (at 355.6 201.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 393ebc48-957b-4c0c-b883-549705e8e926)
-    (property "Reference" "R32" (at 357.378 201.2863 0)
+    (property "Reference" "R49" (at 357.378 201.2863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 357.378 203.2073 0)
@@ -7416,7 +7510,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R32") (unit 1)
+          (reference "R49") (unit 1)
         )
       )
     )
@@ -7450,7 +7544,7 @@
   (symbol (lib_id "power:+3V3") (at 25.4 227.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3aff0b4c-e316-4afb-bc76-d34c3c0a5914)
-    (property "Reference" "#PWR0106" (at 25.4 231.14 0)
+    (property "Reference" "#PWR097" (at 25.4 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 21.59 226.06 0)
@@ -7466,7 +7560,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
     )
@@ -7475,7 +7569,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 278.13 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c2d837b-7ffa-412e-b31e-4a927347f85a)
-    (property "Reference" "#FLG03" (at 278.13 59.055 0)
+    (property "Reference" "#FLG04" (at 278.13 59.055 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 278.13 57.4581 0)
@@ -7491,7 +7585,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#FLG03") (unit 1)
+          (reference "#FLG04") (unit 1)
         )
       )
     )
@@ -7500,13 +7594,13 @@
   (symbol (lib_id "Device:R") (at 152.4 168.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d2efbb8-a51b-444d-ad38-dcf299e059cb)
-    (property "Reference" "R51" (at 152.4 164.8841 90)
+    (property "Reference" "R39" (at 152.4 164.8841 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 152.4 166.8051 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 152.4 170.688 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 152.4 170.688 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.4 168.91 0)
@@ -7517,7 +7611,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R51") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
     )
@@ -7555,7 +7649,7 @@
   (symbol (lib_id "power:GND") (at 332.74 212.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d75b5f1-d462-479e-9139-c06b6cd71327)
-    (property "Reference" "#PWR090" (at 332.74 218.44 0)
+    (property "Reference" "#PWR091" (at 332.74 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 332.74 216.2255 0)
@@ -7571,7 +7665,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -7580,7 +7674,7 @@
   (symbol (lib_id "power:+5V") (at 133.35 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3effd12f-e24d-492f-a7c8-9c2d34150c9e)
-    (property "Reference" "#PWR071" (at 133.35 154.94 0)
+    (property "Reference" "#PWR072" (at 133.35 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 133.35 147.6281 0)
@@ -7596,7 +7690,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -7605,7 +7699,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Pin") (at 181.61 251.46 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f50fd0d-0aec-4eaf-9be1-d4ff251539a3)
-    (property "Reference" "J13" (at 182.3212 249.5463 0)
+    (property "Reference" "J14" (at 182.3212 249.5463 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "I2C7" (at 182.3212 251.4673 0)
@@ -7624,7 +7718,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "J13") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
@@ -7633,7 +7727,7 @@
   (symbol (lib_id "Device:R") (at 120.65 242.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4059efbb-1c11-45ea-a01d-5e1e0b07038e)
-    (property "Reference" "R41" (at 122.428 241.9263 0)
+    (property "Reference" "R60" (at 122.428 241.9263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 122.428 243.8473 0)
@@ -7650,36 +7744,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R41") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Polarized") (at 361.95 43.18 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 405dc07d-972e-4d81-a440-3d570918ee74)
-    (property "Reference" "C3" (at 364.49 40.64 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "100n" (at 364.49 43.18 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 360.9848 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 361.95 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C14663" (at 364.49 40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 676b46fd-b3b0-43a4-9d96-1425fa741c9b))
-    (pin "2" (uuid f560e5ea-d780-4692-9b68-47badb3cf888))
-    (instances
-      (project "RocciShield"
-        (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "C3") (unit 1)
+          (reference "R60") (unit 1)
         )
       )
     )
@@ -7688,7 +7753,7 @@
   (symbol (lib_id "Device:R") (at 35.56 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 418ad35b-d226-4511-9458-22d11efdfe9b)
-    (property "Reference" "R28" (at 37.338 169.5363 0)
+    (property "Reference" "R40" (at 37.338 169.5363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "270" (at 37.338 171.4573 0)
@@ -7705,7 +7770,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R28") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
     )
@@ -7767,7 +7832,7 @@
   (symbol (lib_id "power:+5V") (at 143.51 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44eb7a07-356e-4f4f-bd10-cdb23b5fa175)
-    (property "Reference" "#PWR099" (at 143.51 241.3 0)
+    (property "Reference" "#PWR0103" (at 143.51 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 143.51 233.9881 0)
@@ -7783,7 +7848,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -7869,7 +7934,7 @@
   (symbol (lib_id "power:+5V") (at 35.56 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ac22049-3b11-48e7-9bd6-e16c882f3cf2)
-    (property "Reference" "#PWR0110" (at 35.56 154.94 0)
+    (property "Reference" "#PWR071" (at 35.56 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 35.56 147.6281 0)
@@ -7885,7 +7950,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR0110") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -7919,7 +7984,7 @@
   (symbol (lib_id "power:GND") (at 297.18 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b4b7509-0fac-4d66-8f3f-81b33e67ab3f)
-    (property "Reference" "#PWR034" (at 297.18 99.06 0)
+    (property "Reference" "#PWR035" (at 297.18 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 297.18 96.8455 0)
@@ -7935,7 +8000,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -7944,7 +8009,7 @@
   (symbol (lib_id "Diode:BAT42") (at 143.51 243.84 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b4ba509-c69d-470e-a640-db870e83a96b)
-    (property "Reference" "D29" (at 144.78 240.03 90)
+    (property "Reference" "D31" (at 144.78 240.03 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BAT42" (at 144.78 242.57 90)
@@ -7964,7 +8029,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "D29") (unit 1)
+          (reference "D31") (unit 1)
         )
       )
     )
@@ -7973,7 +8038,7 @@
   (symbol (lib_id "Device:R") (at 113.03 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d92cc61-6200-4504-9c5b-5c55114877d9)
-    (property "Reference" "R30" (at 114.808 184.7763 0)
+    (property "Reference" "R44" (at 114.808 184.7763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 114.808 186.6973 0)
@@ -7990,7 +8055,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R30") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -8104,16 +8169,42 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 368.3 88.9 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 531dfc55-d8bb-4b20-96b5-9a11e3662417)
+    (property "Reference" "C9" (at 371.221 88.2563 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 371.221 90.1773 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 369.2652 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 368.3 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3f184e9d-a60d-45c1-b387-ec0fcd8f15ab))
+    (pin "2" (uuid 12504d3e-15b0-406c-bb2d-19b43cc3f0ad))
+    (instances
+      (project "RocciShield"
+        (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
+          (reference "C9") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 152.4 162.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5437eea9-ac68-41d1-b0fe-982c6e8a7fe6)
-    (property "Reference" "R50" (at 152.4 158.5341 90)
+    (property "Reference" "R38" (at 152.4 158.5341 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 152.4 160.4551 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 152.4 164.338 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 152.4 164.338 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.4 162.56 0)
@@ -8124,7 +8215,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R50") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
     )
@@ -8158,13 +8249,13 @@
   (symbol (lib_id "Device:R") (at 151.13 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 566171d7-b9c2-455a-9066-286a26caaa2b)
-    (property "Reference" "R47" (at 151.13 105.1941 90)
+    (property "Reference" "R28" (at 151.13 105.1941 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 151.13 107.1151 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 151.13 110.998 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 151.13 110.998 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 109.22 0)
@@ -8175,7 +8266,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R47") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -8231,6 +8322,32 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 341.63 88.9 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 583b4192-573d-453b-88fd-cae9c88b4417)
+    (property "Reference" "C11" (at 344.551 88.2563 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 344.551 90.1773 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 342.5952 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 341.63 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 51f7e41b-43a8-46c1-880b-2a37c3c3846a))
+    (pin "2" (uuid 63893311-5add-4acd-90d0-55138abbd9e5))
+    (instances
+      (project "RocciShield"
+        (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
+          (reference "C11") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+12V") (at 281.94 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 588a09ec-9df0-4627-b158-67d77bdbfc97)
@@ -8259,7 +8376,7 @@
   (symbol (lib_id "Device:R") (at 297.18 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5af4bd5f-57a1-43cd-a38d-816e22797401)
-    (property "Reference" "R13" (at 298.958 83.1763 0)
+    (property "Reference" "R18" (at 298.958 83.1763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150" (at 298.958 85.0973 0)
@@ -8276,7 +8393,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R13") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -8285,7 +8402,7 @@
   (symbol (lib_id "Device:R") (at 363.22 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b3dcbe3-b6ac-4af0-a798-fa76ecf603ca)
-    (property "Reference" "R27" (at 364.998 170.8063 0)
+    (property "Reference" "R42" (at 364.998 170.8063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 364.998 172.7273 0)
@@ -8302,7 +8419,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R27") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -8311,7 +8428,7 @@
   (symbol (lib_id "power:+5V") (at 133.35 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5cf8e1e5-14fd-4d58-857b-b5150def9eca)
-    (property "Reference" "#PWR088" (at 133.35 212.09 0)
+    (property "Reference" "#PWR089" (at 133.35 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 133.35 204.7781 0)
@@ -8327,7 +8444,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -8361,7 +8478,7 @@
   (symbol (lib_id "Device:R") (at 45.72 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ef39a1a-2b2e-4968-8342-8945db13ec29)
-    (property "Reference" "R62" (at 47.498 186.0463 0)
+    (property "Reference" "R46" (at 47.498 186.0463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 47.498 187.9673 0)
@@ -8378,36 +8495,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R62") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Polarized") (at 400.05 88.9 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6013a797-be9b-46b4-8c52-7e1868e241d2)
-    (property "Reference" "C12" (at 402.59 86.36 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "100n" (at 402.59 88.9 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 399.0848 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 400.05 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C14663" (at 402.59 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8160f3f3-7d60-4d76-b7b1-bb3529b175ff))
-    (pin "2" (uuid 164ab5a4-45a9-4eed-9652-8df2a1715f36))
-    (instances
-      (project "RocciShield"
-        (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "C12") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -8520,7 +8608,7 @@
   (symbol (lib_id "power:GND") (at 332.74 241.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61f526a8-5019-4bf8-a195-6dbd3b2fc11e)
-    (property "Reference" "#PWR0101" (at 332.74 247.65 0)
+    (property "Reference" "#PWR0106" (at 332.74 247.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 332.74 245.4355 0)
@@ -8536,7 +8624,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -8545,13 +8633,13 @@
   (symbol (lib_id "Device:R") (at 152.4 198.12 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61f85c20-3203-46e7-b354-5cae2fd80e5f)
-    (property "Reference" "R53" (at 152.4 194.0941 90)
+    (property "Reference" "R48" (at 152.4 194.0941 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 152.4 196.0151 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 152.4 199.898 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 152.4 199.898 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.4 198.12 0)
@@ -8562,7 +8650,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R53") (unit 1)
+          (reference "R48") (unit 1)
         )
       )
     )
@@ -8571,7 +8659,7 @@
   (symbol (lib_id "power:GND") (at 35.56 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62cceb74-9a61-4bae-82ff-ba83366ee83d)
-    (property "Reference" "#PWR083" (at 35.56 203.2 0)
+    (property "Reference" "#PWR085" (at 35.56 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 35.56 200.9855 0)
@@ -8587,7 +8675,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -8618,10 +8706,36 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 312.42 41.91 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6663d908-e029-4fdc-a8b5-848ba41299ac)
+    (property "Reference" "C2" (at 315.341 41.2663 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "220n" (at 315.341 43.1873 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 313.3852 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 312.42 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 49da4f30-4de2-4aa2-b78d-c69af33a6d12))
+    (pin "2" (uuid 11cade88-e080-442f-86bc-128a6ab16370))
+    (instances
+      (project "RocciShield"
+        (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
+          (reference "C2") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Diode:BAT42") (at 133.35 243.84 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 672abb81-b970-4778-97b2-aac9b733553c)
-    (property "Reference" "D28" (at 135.382 242.8788 90)
+    (property "Reference" "D30" (at 135.382 242.8788 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BAT42" (at 135.382 244.7998 90)
@@ -8641,7 +8755,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "D28") (unit 1)
+          (reference "D30") (unit 1)
         )
       )
     )
@@ -8708,7 +8822,7 @@
     (property "Value" "1.5µ" (at 370.84 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Inductor_SMD:L_6.3x6.3_H3" (at 370.84 48.26 0)
+    (property "Footprint" "Inductor_SMD:L_Sunlord_SWPA4020S" (at 370.84 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 370.84 48.26 0)
@@ -8728,26 +8842,52 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 204.47 224.79 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 204.47 227.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6861f6a7-906b-4d5f-9890-b8ddbdf626c9)
-    (property "Reference" "#PWR094" (at 204.47 231.14 0)
+    (property "Reference" "#PWR095" (at 204.47 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 204.47 228.9255 0)
+    (property "Value" "GND" (at 204.47 231.4655 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 204.47 224.79 0)
+    (property "Footprint" "" (at 204.47 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 204.47 224.79 0)
+    (property "Datasheet" "" (at 204.47 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b75783e6-3901-4b65-be78-fb170c42128f))
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR095") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 400.05 88.9 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 69ca940c-7ae5-45fd-9ead-ef879b943d4f)
+    (property "Reference" "C12" (at 402.971 88.2563 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 402.971 90.1773 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 401.0152 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 400.05 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f2d7bb5d-a1e4-4111-8ea1-213539f6a049))
+    (pin "2" (uuid 8183cea0-ccd6-44d5-8518-9be3c849d5e0))
+    (instances
+      (project "RocciShield"
+        (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -8756,7 +8896,7 @@
   (symbol (lib_id "power:GND") (at 381 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a392d68-bf57-49bd-86d6-39298a8b6853)
-    (property "Reference" "#PWR041" (at 381 109.22 0)
+    (property "Reference" "#PWR043" (at 381 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 381 107.0055 0)
@@ -8772,7 +8912,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -8781,13 +8921,13 @@
   (symbol (lib_id "Device:R") (at 151.13 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6bf00cac-e784-42c1-9f25-7671ca298a33)
-    (property "Reference" "R44" (at 151.13 69.6341 90)
+    (property "Reference" "R12" (at 151.13 69.6341 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 151.13 71.5551 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 151.13 75.438 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 151.13 75.438 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 73.66 0)
@@ -8798,7 +8938,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R44") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -8807,7 +8947,7 @@
   (symbol (lib_id "Device:R") (at 363.22 201.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ce061f7-c2ef-47cd-9bf4-cbad68687054)
-    (property "Reference" "R33" (at 364.998 201.2863 0)
+    (property "Reference" "R50" (at 364.998 201.2863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 364.998 203.2073 0)
@@ -8824,7 +8964,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R33") (unit 1)
+          (reference "R50") (unit 1)
         )
       )
     )
@@ -8833,7 +8973,7 @@
   (symbol (lib_id "Device:R") (at 326.39 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d5f88ef-5054-4b9f-a316-92bda51ac330)
-    (property "Reference" "R4" (at 328.168 59.0463 0)
+    (property "Reference" "R6" (at 328.168 59.0463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 328.168 60.9673 0)
@@ -8850,7 +8990,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R4") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -8859,7 +8999,7 @@
   (symbol (lib_id "power:GND") (at 400.05 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6de1f9ba-cd02-486e-8da1-e9c7ec708b7d)
-    (property "Reference" "#PWR042" (at 400.05 101.6 0)
+    (property "Reference" "#PWR040" (at 400.05 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 400.05 99.3855 0)
@@ -8875,7 +9015,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -8884,13 +9024,13 @@
   (symbol (lib_id "Device:R") (at 346.71 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e2bd500-014d-4a47-bf76-9684e5574a62)
-    (property "Reference" "R29" (at 347.98 179.07 0)
+    (property "Reference" "R43" (at 347.98 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "30k" (at 347.98 181.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 344.932 180.34 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 344.932 180.34 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 346.71 180.34 0)
@@ -8901,7 +9041,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R29") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
     )
@@ -8935,13 +9075,13 @@
   (symbol (lib_id "Device:R") (at 151.13 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f50c84c-76a0-46d4-91c3-f93e678b1dce)
-    (property "Reference" "R49" (at 151.13 135.6741 90)
+    (property "Reference" "R32" (at 151.13 135.6741 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 151.13 137.5951 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 151.13 141.478 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 151.13 141.478 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 139.7 0)
@@ -8952,7 +9092,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R49") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -8986,7 +9126,7 @@
   (symbol (lib_id "power:GND") (at 368.3 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 701e7a65-10f3-4028-8283-8a3ad89eb0f5)
-    (property "Reference" "#PWR040" (at 368.3 100.33 0)
+    (property "Reference" "#PWR039" (at 368.3 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 368.3 98.1155 0)
@@ -9002,7 +9142,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -9011,7 +9151,7 @@
   (symbol (lib_id "Device:R") (at 119.38 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 706189ea-be12-4201-825c-aac7b0aadb5d)
-    (property "Reference" "R9" (at 121.158 66.6663 0)
+    (property "Reference" "R11" (at 121.158 66.6663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 121.158 68.5873 0)
@@ -9028,7 +9168,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R9") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -9037,7 +9177,7 @@
   (symbol (lib_id "Device:R") (at 113.03 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 71214923-2b4f-48b6-bb14-f0f6e96e9d90)
-    (property "Reference" "R35" (at 114.808 212.7163 0)
+    (property "Reference" "R52" (at 114.808 212.7163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 114.808 214.6373 0)
@@ -9054,7 +9194,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R35") (unit 1)
+          (reference "R52") (unit 1)
         )
       )
     )
@@ -9113,35 +9253,6 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 375.92 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 720e6f63-6017-4b78-8201-96878b5284a9)
-    (property "Reference" "C15" (at 378.841 116.1963 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 378.841 118.1173 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 376.8852 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 375.92 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C14663" (at 378.841 116.1963 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fc5f61ee-7133-4caa-b92c-ce6a01d5c02a))
-    (pin "2" (uuid 85b3617e-4336-4c77-95fd-ac792ff5ed59))
-    (instances
-      (project "RocciShield"
-        (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "C15") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Connector:TestPoint") (at 251.46 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72c43437-dd79-49bf-bc8b-b0513fefd6f7)
@@ -9167,45 +9278,16 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 309.88 88.9 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 73dfa996-2778-484b-a70a-a3eafc97e690)
-    (property "Reference" "C8" (at 312.42 86.36 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "100n" (at 312.42 88.9 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 308.9148 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 309.88 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C14663" (at 312.42 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a0f2ff05-3847-49a5-827f-6a9358d523e9))
-    (pin "2" (uuid f0f0bc4e-e55a-47d6-8b05-1f7286c824c5))
-    (instances
-      (project "RocciShield"
-        (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "C8") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 151.13 50.8 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 743caa52-bced-4b02-9083-94d344d17280)
-    (property "Reference" "R43" (at 151.13 46.7741 90)
+    (property "Reference" "R4" (at 151.13 46.7741 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 151.13 48.6951 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 151.13 52.578 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 151.13 52.578 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 50.8 0)
@@ -9216,7 +9298,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R43") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -9307,13 +9389,16 @@
     (property "Reference" "F1" (at 156.21 25.4 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1 A" (at 163.83 25.4 90)
+    (property "Value" "300 mA ptc" (at 163.83 25.4 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Fuse:Fuse_0805_2012Metric" (at 166.37 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "~" (at 161.29 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LSCL" "C261938" (at 161.29 27.94 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 565f2320-9f63-487a-a789-1ef2b3181a60))
@@ -9357,7 +9442,7 @@
   (symbol (lib_id "power:GND") (at 346.71 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78e267e7-d8a8-43de-a345-554c6c031129)
-    (property "Reference" "#PWR092" (at 346.71 222.25 0)
+    (property "Reference" "#PWR093" (at 346.71 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 342.9 217.17 0)
@@ -9373,7 +9458,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
     )
@@ -9484,7 +9569,7 @@
   (symbol (lib_id "power:GND") (at 322.58 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7d93ce69-b88d-42af-9691-2b6d43e614ad)
-    (property "Reference" "#PWR037" (at 322.58 109.22 0)
+    (property "Reference" "#PWR042" (at 322.58 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 322.58 107.0055 0)
@@ -9500,7 +9585,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -9534,7 +9619,7 @@
   (symbol (lib_id "Device:R") (at 378.46 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82911b97-bc07-49ef-857a-6903d2007659)
-    (property "Reference" "R5" (at 380.238 64.1263 0)
+    (property "Reference" "R7" (at 380.238 64.1263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "24.9k" (at 380.238 66.0473 0)
@@ -9551,7 +9636,33 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R5") (unit 1)
+          (reference "R7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 53.34 57.15 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 82ab455b-e125-4dba-bf56-510849553f45)
+    (property "Reference" "C6" (at 56.261 56.5063 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 56.261 58.4273 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 54.3052 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 53.34 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0835b024-29c6-40b6-a25b-50bbf17250d5))
+    (pin "2" (uuid 682d55e7-8472-46d3-a71d-aca5a3b1dff2))
+    (instances
+      (project "RocciShield"
+        (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -9560,10 +9671,10 @@
   (symbol (lib_id "Device:Polyfuse") (at 162.56 232.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83c65b59-b5e8-4308-ba01-d2ae8c7be137)
-    (property "Reference" "F23" (at 157.48 229.87 90)
+    (property "Reference" "F10" (at 157.48 229.87 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1 A" (at 165.1 229.87 90)
+    (property "Value" "300 mA ptc" (at 165.1 229.87 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Fuse:Fuse_0805_2012Metric" (at 167.64 231.14 0)
@@ -9577,7 +9688,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "F23") (unit 1)
+          (reference "F10") (unit 1)
         )
       )
     )
@@ -9586,7 +9697,7 @@
   (symbol (lib_id "power:+3V3") (at 114.3 203.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83c6b19a-12b6-4d61-8492-0afe94b820f6)
-    (property "Reference" "#PWR086" (at 114.3 207.01 0)
+    (property "Reference" "#PWR087" (at 114.3 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 114.3 199.6981 0)
@@ -9602,7 +9713,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -9611,7 +9722,7 @@
   (symbol (lib_id "power:+5V") (at 143.51 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84b52785-4278-4c22-b205-c88a3b4a2523)
-    (property "Reference" "#PWR080" (at 143.51 184.15 0)
+    (property "Reference" "#PWR081" (at 143.51 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 143.51 176.8381 0)
@@ -9627,7 +9738,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -9636,10 +9747,10 @@
   (symbol (lib_id "Device:R") (at 203.2 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85ce6577-027a-410b-ad33-f612ae5eedf7)
-    (property "Reference" "R15" (at 204.978 86.9863 0)
+    (property "Reference" "R19" (at 204.978 86.9863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1k47 1%" (at 204.978 88.9073 0)
+    (property "Value" "10k 1%" (at 204.978 88.9073 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 201.422 87.63 90)
@@ -9653,7 +9764,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R15") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -9741,24 +9852,24 @@
   (symbol (lib_id "Device:R") (at 346.71 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8837b8b0-5237-4217-9cab-165cc2fbfa01)
-    (property "Reference" "R23" (at 347.98 149.86 0)
+    (property "Reference" "R35" (at 347.98 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "30k" (at 347.98 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 344.932 151.13 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 344.932 151.13 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 346.71 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 55c0cbf4-31d5-4098-8a35-3c6f60e66243))
-    (pin "2" (uuid 9bedc77b-66d4-4883-92c2-ac4e620a234d))
+    (pin "1" (uuid db3caaa4-4e36-42fc-ae9c-3bd6de82d54b))
+    (pin "2" (uuid b55936fd-a5fa-41a5-8d6f-95c480527457))
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R23") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -9792,7 +9903,7 @@
   (symbol (lib_id "Device:R") (at 355.6 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 88ae5faf-66b0-4df5-8cde-e395a4552d88)
-    (property "Reference" "R26" (at 357.378 170.8063 0)
+    (property "Reference" "R41" (at 357.378 170.8063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 357.378 172.7273 0)
@@ -9809,7 +9920,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R26") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
     )
@@ -9818,7 +9929,7 @@
   (symbol (lib_id "Device:R") (at 111.76 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b2fbcce-21a5-44af-8b80-f80ceea8b75b)
-    (property "Reference" "R19" (at 113.538 126.3563 0)
+    (property "Reference" "R29" (at 113.538 126.3563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 113.538 128.2773 0)
@@ -9835,7 +9946,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R19") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -9866,30 +9977,27 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 368.3 88.9 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8bd94435-c3b6-44e4-bb37-952f3410f93d)
-    (property "Reference" "C11" (at 370.84 86.36 0)
-      (effects (font (size 1.27 1.27)) (justify right))
+  (symbol (lib_id "Device:C") (at 316.23 59.69 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8bb53879-c819-43a4-9630-3d85a5c83481)
+    (property "Reference" "C7" (at 319.151 59.0463 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 370.84 88.9 0)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (property "Value" "1µ" (at 319.151 60.9673 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 367.3348 85.09 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 317.1952 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 368.3 88.9 0)
+    (property "Datasheet" "~" (at 316.23 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C14663" (at 370.84 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 298a68ec-af40-486d-af13-54427de4fa05))
-    (pin "2" (uuid 684b2dc1-1c99-48b1-b101-563133399f54))
+    (pin "1" (uuid 72dee5f5-9194-4754-abef-1fcdd2054625))
+    (pin "2" (uuid aca9e786-286b-499f-950f-91bf60aee3c8))
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "C11") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -9948,7 +10056,7 @@
   (symbol (lib_id "Device:R") (at 120.65 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d562e4c-8691-455a-be90-ba9b1f7287e3)
-    (property "Reference" "R36" (at 122.428 212.7163 0)
+    (property "Reference" "R53" (at 122.428 212.7163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 122.428 214.6373 0)
@@ -9965,7 +10073,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R36") (unit 1)
+          (reference "R53") (unit 1)
         )
       )
     )
@@ -10003,7 +10111,7 @@
   (symbol (lib_id "power:+3V3") (at 297.18 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e91affc-79ad-4b64-8fc0-9e46a604c83a)
-    (property "Reference" "#PWR021" (at 297.18 71.12 0)
+    (property "Reference" "#PWR022" (at 297.18 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 297.18 63.8081 0)
@@ -10019,7 +10127,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -10028,7 +10136,7 @@
   (symbol (lib_id "power:GND") (at 346.71 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e99778a-2675-41c4-a57f-95341c13b534)
-    (property "Reference" "#PWR082" (at 346.71 191.77 0)
+    (property "Reference" "#PWR083" (at 346.71 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 342.9 186.69 0)
@@ -10044,7 +10152,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -10178,7 +10286,7 @@
   (symbol (lib_id "power:GND") (at 341.63 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9402ba49-9934-4b08-bb95-354dfd867ffd)
-    (property "Reference" "#PWR038" (at 341.63 100.33 0)
+    (property "Reference" "#PWR037" (at 341.63 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 341.63 98.1155 0)
@@ -10194,7 +10302,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -10203,7 +10311,7 @@
   (symbol (lib_id "power:+5V") (at 143.51 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95bd799a-2032-41a1-b688-afd0118b25fc)
-    (property "Reference" "#PWR089" (at 143.51 212.09 0)
+    (property "Reference" "#PWR090" (at 143.51 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 143.51 204.7781 0)
@@ -10219,7 +10327,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -10228,7 +10336,7 @@
   (symbol (lib_id "power:GND") (at 346.71 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95dffb68-d69e-4dfb-95eb-1188c024b829)
-    (property "Reference" "#PWR074" (at 346.71 162.56 0)
+    (property "Reference" "#PWR075" (at 346.71 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 342.9 157.48 0)
@@ -10244,7 +10352,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -10396,7 +10504,7 @@
   (symbol (lib_id "Device:R") (at 34.29 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97aa0295-ae98-4c19-9456-bdd72166889a)
-    (property "Reference" "R6" (at 36.068 66.6663 0)
+    (property "Reference" "R8" (at 36.068 66.6663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 36.068 68.5873 0)
@@ -10413,7 +10521,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R6") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -10422,7 +10530,7 @@
   (symbol (lib_id "power:+5V") (at 133.35 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9967066f-1e8b-4834-8463-8c0e68163e9b)
-    (property "Reference" "#PWR079" (at 133.35 184.15 0)
+    (property "Reference" "#PWR080" (at 133.35 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 133.35 176.8381 0)
@@ -10438,7 +10546,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -10447,13 +10555,13 @@
   (symbol (lib_id "Device:R") (at 151.13 133.35 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a5431df-d860-4030-98ec-e2278b057785)
-    (property "Reference" "R48" (at 151.13 129.3241 90)
+    (property "Reference" "R31" (at 151.13 129.3241 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 151.13 131.2451 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 151.13 135.128 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 151.13 135.128 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 133.35 0)
@@ -10464,7 +10572,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R48") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -10501,10 +10609,10 @@
     (property "Reference" "C10" (at 358.521 87.3673 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22 µF" (at 358.14 90.17 0)
+    (property "Value" "33µ" (at 358.14 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:CP_Elec_5x3" (at 356.5652 92.71 0)
+    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X" (at 356.5652 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 355.6 88.9 0)
@@ -10549,10 +10657,10 @@
   (symbol (lib_id "Device:Polyfuse") (at 163.83 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b569bd6-ed2e-43a9-b3d2-29a9764893c6)
-    (property "Reference" "F8" (at 158.75 83.82 90)
+    (property "Reference" "F4" (at 158.75 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1 A" (at 166.37 83.82 90)
+    (property "Value" "300 mA ptc" (at 166.37 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Fuse:Fuse_0805_2012Metric" (at 168.91 85.09 0)
@@ -10566,7 +10674,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "F8") (unit 1)
+          (reference "F4") (unit 1)
         )
       )
     )
@@ -10600,7 +10708,7 @@
   (symbol (lib_id "power:+5V") (at 127 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9cf0887b-f5bb-44e9-b993-6ba159f63012)
-    (property "Reference" "#PWR097" (at 127 236.22 0)
+    (property "Reference" "#PWR0101" (at 127 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 127 228.9081 0)
@@ -10616,7 +10724,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -10625,7 +10733,7 @@
   (symbol (lib_id "power:+5V") (at 289.56 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d3e9c8b-2a40-478b-b081-b742b0e90e9e)
-    (property "Reference" "#PWR020" (at 289.56 71.12 0)
+    (property "Reference" "#PWR021" (at 289.56 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 289.56 63.8081 0)
@@ -10641,7 +10749,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -10650,7 +10758,7 @@
   (symbol (lib_id "Device:LED") (at 289.56 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ec068e6-a868-4626-9b3f-00c76928928b)
-    (property "Reference" "D6" (at 292.1 71.12 90)
+    (property "Reference" "D7" (at 292.1 71.12 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "GR" (at 292.1 73.66 90)
@@ -10670,7 +10778,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "D6") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -10841,7 +10949,7 @@
   (symbol (lib_id "power:+8V") (at 204.47 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a58cd24a-a1c4-4159-9a3d-5af344bb3fd9)
-    (property "Reference" "#PWR091" (at 204.47 217.17 0)
+    (property "Reference" "#PWR092" (at 204.47 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+8V" (at 204.47 209.8581 0)
@@ -10857,7 +10965,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -10916,13 +11024,13 @@
   (symbol (lib_id "Device:R") (at 152.4 191.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8b8b8b9-7efd-4def-8f8b-d44ade4fa008)
-    (property "Reference" "R52" (at 152.4 187.7441 90)
+    (property "Reference" "R47" (at 152.4 187.7441 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 152.4 189.6651 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 152.4 193.548 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 152.4 193.548 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.4 191.77 0)
@@ -10933,7 +11041,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R52") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
     )
@@ -10971,10 +11079,10 @@
   (symbol (lib_id "Device:Polyfuse") (at 162.56 203.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa29ce79-15a6-4259-aca1-852a505a3daf)
-    (property "Reference" "F20" (at 157.48 200.66 90)
+    (property "Reference" "F8" (at 157.48 200.66 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1 A" (at 165.1 200.66 90)
+    (property "Value" "300 mA ptc" (at 165.1 200.66 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Fuse:Fuse_0805_2012Metric" (at 167.64 201.93 0)
@@ -10988,7 +11096,32 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "F20") (unit 1)
+          (reference "F8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 194.31 77.47 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid abf3b07b-d39c-4fb7-99ae-2c758919ac0a)
+    (property "Reference" "#PWR0111" (at 194.31 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 197.993 79.629 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 194.31 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 194.31 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f40795f3-5e91-4f78-bbc5-4ff51bd066c8))
+    (instances
+      (project "RocciShield"
+        (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -10997,13 +11130,13 @@
   (symbol (lib_id "Device:R") (at 322.58 97.79 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac838f2e-ced1-4024-9379-8bc7f4248c14)
-    (property "Reference" "R58" (at 324.358 97.1463 0)
+    (property "Reference" "R24" (at 324.358 97.1463 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "390" (at 324.358 99.0673 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 324.358 97.79 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 324.358 97.79 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 322.58 97.79 0)
@@ -11014,7 +11147,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R58") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -11023,16 +11156,19 @@
   (symbol (lib_id "Device:Polyfuse") (at 53.34 234.95 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid acad6db2-5a40-4997-a186-15380d19445f)
-    (property "Reference" "F27" (at 43.18 233.68 90)
+    (property "Reference" "F11" (at 41.275 233.68 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1A" (at 46.99 233.68 90)
+    (property "Value" "1A ptc" (at 46.99 233.68 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Fuse:Fuse_1812_4532Metric" (at 58.42 233.68 0)
+    (property "Footprint" "Fuse:Fuse_1206_3216Metric" (at 58.42 233.68 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "~" (at 53.34 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LSCL" "C910830" (at 53.34 234.95 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8d1c5908-ef03-48b8-8c88-9da5179300d3))
@@ -11040,7 +11176,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "F27") (unit 1)
+          (reference "F11") (unit 1)
         )
       )
     )
@@ -11049,7 +11185,7 @@
   (symbol (lib_id "Device:R") (at 120.65 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad17100f-d7ce-43bb-b18e-fe752afdc99c)
-    (property "Reference" "R25" (at 122.428 155.5663 0)
+    (property "Reference" "R37" (at 122.428 155.5663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 122.428 157.4873 0)
@@ -11066,7 +11202,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R25") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -11104,7 +11240,7 @@
   (symbol (lib_id "power:GND") (at 173.99 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae42f86e-1eba-4be2-8616-8af0784fe128)
-    (property "Reference" "#PWR095" (at 173.99 232.41 0)
+    (property "Reference" "#PWR096" (at 173.99 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 173.99 230.1955 0)
@@ -11120,7 +11256,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
     )
@@ -11151,30 +11287,27 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 204.47 219.71 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid af2d524c-7dcc-43c4-947d-f82e6958737a)
-    (property "Reference" "C18" (at 207.01 217.17 0)
-      (effects (font (size 1.27 1.27)) (justify right))
+  (symbol (lib_id "Device:C") (at 386.08 116.84 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid aeae4c76-4264-4638-95f4-003517c5dd48)
+    (property "Reference" "C16" (at 389.001 116.1963 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 207.01 219.71 0)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (property "Value" "100n" (at 389.001 118.1173 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 203.5048 215.9 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 387.0452 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 204.47 219.71 0)
+    (property "Datasheet" "~" (at 386.08 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C14663" (at 207.01 217.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e3d2ade9-3927-4203-885d-fdb3fd1117da))
-    (pin "2" (uuid d8111f87-cbbf-4536-b165-f2e5d1bdb0db))
+    (pin "1" (uuid 05a6f294-2cf8-4f16-a925-ca423cda7255))
+    (pin "2" (uuid 242c56ee-acc5-4e1e-ab86-de220f54fb83))
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "C18") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -11183,7 +11316,7 @@
   (symbol (lib_id "Device:R") (at 119.38 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af71eec7-12b6-4d5a-9c56-1d0d0997302e)
-    (property "Reference" "R20" (at 121.158 126.3563 0)
+    (property "Reference" "R30" (at 121.158 126.3563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 121.158 128.2773 0)
@@ -11200,7 +11333,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R20") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -11209,7 +11342,7 @@
   (symbol (lib_id "Regulator_Linear:LM317_TO-252") (at 381 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1f6ebf3-b8da-4efa-bdae-bc4c047fc378)
-    (property "Reference" "U10" (at 381 78.9051 0)
+    (property "Reference" "U3" (at 381 78.9051 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM317_TO-252" (at 381 80.8261 0)
@@ -11227,7 +11360,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "U10") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -11236,7 +11369,7 @@
   (symbol (lib_id "Device:R") (at 111.76 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b20d3f2f-8f92-4ef6-aaf9-0e635595f72b)
-    (property "Reference" "R16" (at 113.538 95.8763 0)
+    (property "Reference" "R22" (at 113.538 95.8763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 113.538 97.7973 0)
@@ -11253,7 +11386,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R16") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -11309,6 +11442,32 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 396.24 116.84 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b36c17d6-34bb-4066-a19b-c8e824624bda)
+    (property "Reference" "C17" (at 399.161 116.1963 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 399.161 118.1173 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 397.2052 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 396.24 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c9e40288-c4e9-4173-b3e8-abb766d0babf))
+    (pin "2" (uuid 410dba14-42fb-4d94-bc47-1b81030d70dc))
+    (instances
+      (project "RocciShield"
+        (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
+          (reference "C17") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Regulator_Switching:LMR33630CDDA") (at 339.09 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b383e64c-4abb-406e-a497-cc30ff117a94)
@@ -11345,39 +11504,13 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 316.23 59.69 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b520cb52-94c0-458b-86d0-b0e421885428)
-    (property "Reference" "C7" (at 319.151 59.0463 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1µ" (at 319.151 60.9673 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:CP_Elec_5x3" (at 317.1952 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 316.23 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 95fce9ee-3681-4003-af8d-873cc7110343))
-    (pin "2" (uuid e5f33057-dacc-4048-8b55-aa1f0d1d7907))
-    (instances
-      (project "RocciShield"
-        (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "C7") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:Polyfuse") (at 163.83 116.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6a147b9-1003-4396-82c2-57ed6ffa1064)
-    (property "Reference" "F11" (at 158.75 114.3 90)
+    (property "Reference" "F5" (at 158.75 114.3 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1 A" (at 166.37 114.3 90)
+    (property "Value" "300 mA ptc" (at 166.37 114.3 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Fuse:Fuse_0805_2012Metric" (at 168.91 115.57 0)
@@ -11391,33 +11524,33 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "F11") (unit 1)
+          (reference "F5") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 53.34 57.15 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b7ef3123-08cf-489b-a995-f88091800a74)
-    (property "Reference" "C6" (at 55.88 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify right))
+  (symbol (lib_id "Device:C") (at 365.76 116.84 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b701e6cd-6287-48c0-b2e5-5de45d1df6b0)
+    (property "Reference" "C14" (at 368.681 116.1963 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 55.88 57.15 0)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (property "Value" "100n" (at 368.681 118.1173 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 52.3748 53.34 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 366.7252 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 53.34 57.15 0)
+    (property "Datasheet" "~" (at 365.76 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1d22175d-638c-4f4e-a3fa-51d9e3c9a735))
-    (pin "2" (uuid 73550646-d414-4dce-b3dc-91b7f598e45e))
+    (pin "1" (uuid 1920c35d-d4c4-4661-82bd-72d2b22073e1))
+    (pin "2" (uuid d94a67a5-c16a-4a52-b851-d018cf9a539a))
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "C6") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -11426,13 +11559,13 @@
   (symbol (lib_id "Device:R") (at 346.71 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b894c101-e4e1-4795-a41c-f313428c08ad)
-    (property "Reference" "R39" (at 347.98 238.76 0)
+    (property "Reference" "R58" (at 347.98 238.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "30k" (at 347.98 241.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 344.932 240.03 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 344.932 240.03 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 346.71 240.03 0)
@@ -11443,7 +11576,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R39") (unit 1)
+          (reference "R58") (unit 1)
         )
       )
     )
@@ -11477,7 +11610,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 377.19 241.3 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b999ca35-b1aa-4682-bb66-e2946f92814f)
-    (property "Reference" "J12" (at 374.65 246.38 0)
+    (property "Reference" "J13" (at 374.65 246.38 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "M4" (at 374.65 243.84 0)
@@ -11494,7 +11627,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "J12") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -11563,7 +11696,7 @@
     (property "Value" "100" (at 152.4 217.6051 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 152.4 221.488 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 152.4 221.488 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.4 219.71 0)
@@ -11608,7 +11741,7 @@
   (symbol (lib_id "power:+3V3") (at 114.3 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be56846f-a859-47e7-b9a2-40676421ac41)
-    (property "Reference" "#PWR077" (at 114.3 179.07 0)
+    (property "Reference" "#PWR078" (at 114.3 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 114.3 171.7581 0)
@@ -11624,7 +11757,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -11633,7 +11766,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 241.3 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid befe46f0-79f9-4b62-b9ca-f13071f87ead)
-    (property "Reference" "#FLG04" (at 241.3 29.845 0)
+    (property "Reference" "#FLG01" (at 241.3 29.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 241.3 28.2481 0)
@@ -11649,7 +11782,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#FLG04") (unit 1)
+          (reference "#FLG01") (unit 1)
         )
       )
     )
@@ -11658,7 +11791,7 @@
   (symbol (lib_id "power:GND") (at 355.6 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf70bd37-66c0-424f-90ba-6f08dba220b6)
-    (property "Reference" "#PWR039" (at 355.6 100.33 0)
+    (property "Reference" "#PWR038" (at 355.6 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 355.6 98.1155 0)
@@ -11674,7 +11807,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -11683,19 +11816,19 @@
   (symbol (lib_id "Device:D_Zener") (at 25.4 241.3 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bfb2dac6-721e-465b-b21c-3d133c82718d)
-    (property "Reference" "D31" (at 27.432 240.6563 90)
+    (property "Reference" "D26" (at 27.432 240.6563 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3V4" (at 27.432 242.5773 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 25.4 241.3 0)
+    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 25.4 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 25.4 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C72043" (at 27.432 240.6563 0)
+    (property "LCSC" "C8056" (at 27.432 240.6563 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 97f33c81-de78-4a38-9448-3b13b6f65323))
@@ -11703,7 +11836,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "D31") (unit 1)
+          (reference "D26") (unit 1)
         )
       )
     )
@@ -11766,7 +11899,7 @@
   (symbol (lib_id "Device:R") (at 355.6 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0aff0d1-2608-4cce-afe2-97ca9b8b4184)
-    (property "Reference" "R21" (at 357.378 141.5963 0)
+    (property "Reference" "R33" (at 357.378 141.5963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 357.378 143.5173 0)
@@ -11783,7 +11916,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R21") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -11792,7 +11925,7 @@
   (symbol (lib_id "Device:R") (at 111.76 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0cf0a83-0431-4c1c-8d8b-ae183e7c4efd)
-    (property "Reference" "R8" (at 113.538 66.6663 0)
+    (property "Reference" "R10" (at 113.538 66.6663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 113.538 68.5873 0)
@@ -11809,7 +11942,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R8") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -11843,13 +11976,13 @@
   (symbol (lib_id "Device:R") (at 331.47 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c32482f0-7150-40ca-ae33-9b770d9dde5c)
-    (property "Reference" "R59" (at 333.248 88.2563 0)
+    (property "Reference" "R20" (at 333.248 88.2563 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "240" (at 333.248 90.1773 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 333.248 88.9 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 333.248 88.9 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 331.47 88.9 0)
@@ -11860,7 +11993,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R59") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -11894,7 +12027,7 @@
   (symbol (lib_id "power:+12V") (at 41.91 227.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c44b8271-c384-4943-be77-b22e10c6ae5f)
-    (property "Reference" "#PWR0104" (at 41.91 231.14 0)
+    (property "Reference" "#PWR099" (at 41.91 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 38.1 226.06 0)
@@ -11910,7 +12043,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
       )
     )
@@ -12025,7 +12158,7 @@
   (symbol (lib_id "Device:R") (at 120.65 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c650accc-17ea-4bca-aceb-04a9104c425f)
-    (property "Reference" "R31" (at 122.428 184.7763 0)
+    (property "Reference" "R45" (at 122.428 184.7763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 122.428 186.6973 0)
@@ -12042,7 +12175,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R31") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
@@ -12101,7 +12234,7 @@
   (symbol (lib_id "power:+5V") (at 133.35 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8243e28-9332-4af7-93ac-73838ab5cc20)
-    (property "Reference" "#PWR098" (at 133.35 241.3 0)
+    (property "Reference" "#PWR0102" (at 133.35 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 133.35 233.9881 0)
@@ -12117,7 +12250,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -12155,7 +12288,7 @@
   (symbol (lib_id "Device:LED") (at 281.94 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c88e5620-c211-406c-96be-a9784be075c9)
-    (property "Reference" "D8" (at 284.48 71.12 90)
+    (property "Reference" "D6" (at 284.48 71.12 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "GR" (at 284.48 73.66 90)
@@ -12175,65 +12308,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "D8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Polarized") (at 396.24 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c8d3c477-acdd-4e21-a136-dddc094785cd)
-    (property "Reference" "C17" (at 399.161 116.1963 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 399.161 118.1173 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 397.2052 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 396.24 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C14663" (at 399.161 116.1963 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2c366aed-2cb2-45d3-90d2-5a30db341421))
-    (pin "2" (uuid 002686ef-f207-468b-a935-dd38b83ef9a1))
-    (instances
-      (project "RocciShield"
-        (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "C17") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Polarized") (at 386.08 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c9364524-c61f-49b6-8117-dba211690aad)
-    (property "Reference" "C16" (at 389.001 116.1963 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 389.001 118.1173 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 387.0452 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 386.08 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C14663" (at 389.001 116.1963 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 115998ee-df52-46ca-b135-a5254a396164))
-    (pin "2" (uuid ab47dc07-85d6-438b-8401-7dbb1d67fde3))
-    (instances
-      (project "RocciShield"
-        (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "C16") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -12242,7 +12317,7 @@
   (symbol (lib_id "power:+5V") (at 33.02 227.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid caa3b2a1-bb88-4ba7-bdfb-30e96837f84b)
-    (property "Reference" "#PWR0105" (at 33.02 231.14 0)
+    (property "Reference" "#PWR098" (at 33.02 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 29.21 226.06 0)
@@ -12258,7 +12333,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
     )
@@ -12267,7 +12342,7 @@
   (symbol (lib_id "Device:R") (at 281.94 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cae75959-bccf-49f2-b555-f0639e7611cd)
-    (property "Reference" "R14" (at 283.718 83.1763 0)
+    (property "Reference" "R16" (at 283.718 83.1763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 283.718 85.0973 0)
@@ -12284,7 +12359,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R14") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -12348,13 +12423,13 @@
   (symbol (lib_id "Device:R") (at 151.13 102.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce532c21-f660-41bf-84e3-460406f1d2c5)
-    (property "Reference" "R46" (at 151.13 98.8441 90)
+    (property "Reference" "R27" (at 151.13 98.8441 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 151.13 100.7651 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 151.13 104.648 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 151.13 104.648 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 102.87 0)
@@ -12365,7 +12440,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R46") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -12403,10 +12478,10 @@
   (symbol (lib_id "Device:Polyfuse") (at 163.83 57.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d1a536ea-dd2b-4f17-8d97-f34684993c46)
-    (property "Reference" "F5" (at 158.75 54.61 90)
+    (property "Reference" "F3" (at 158.75 54.61 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1 A" (at 166.37 54.61 90)
+    (property "Value" "300 mA ptc" (at 166.37 54.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Fuse:Fuse_0805_2012Metric" (at 168.91 55.88 0)
@@ -12420,7 +12495,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "F5") (unit 1)
+          (reference "F3") (unit 1)
         )
       )
     )
@@ -12429,7 +12504,7 @@
   (symbol (lib_id "Device:R") (at 363.22 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7182b41-a294-45d1-95ce-2515a7128ab7)
-    (property "Reference" "R22" (at 364.998 141.5963 0)
+    (property "Reference" "R34" (at 364.998 141.5963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 364.998 143.5173 0)
@@ -12446,7 +12521,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R22") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -12461,7 +12536,7 @@
     (property "Value" "100" (at 152.4 223.9551 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 152.4 227.838 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 152.4 227.838 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.4 226.06 0)
@@ -12562,7 +12637,7 @@
   (symbol (lib_id "power:GND") (at 34.29 246.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dcac5562-2357-4e6d-a1a7-c3b3ad175853)
-    (property "Reference" "#PWR0108" (at 34.29 252.73 0)
+    (property "Reference" "#PWR0109" (at 34.29 252.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 34.29 250.5155 0)
@@ -12578,7 +12653,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -12587,16 +12662,19 @@
   (symbol (lib_id "Device:Polyfuse") (at 53.34 232.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ddbdcb5a-62e9-4082-97cb-331ec7c62d2b)
-    (property "Reference" "F26" (at 43.18 231.14 90)
+    (property "Reference" "F9" (at 41.275 231.14 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "3A" (at 46.99 231.14 90)
+    (property "Value" "3A ptc" (at 46.99 231.14 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Fuse:Fuse_1812_4532Metric" (at 58.42 231.14 0)
+    (property "Footprint" "Fuse:Fuse_2920_7451Metric" (at 58.42 231.14 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "~" (at 53.34 232.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LSCL" "C2977527" (at 53.34 232.41 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 384ceed4-6322-4764-9e2a-4e2e84aa9208))
@@ -12604,7 +12682,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "F26") (unit 1)
+          (reference "F9") (unit 1)
         )
       )
     )
@@ -12641,13 +12719,13 @@
   (symbol (lib_id "Device:R") (at 389.89 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e27ff76a-3f61-4318-9959-c1d2ab340090)
-    (property "Reference" "R61" (at 391.668 88.2563 0)
+    (property "Reference" "R21" (at 391.668 88.2563 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "240" (at 391.668 90.1773 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 391.668 88.9 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 391.668 88.9 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 389.89 88.9 0)
@@ -12658,7 +12736,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R61") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -12687,6 +12765,32 @@
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
           (reference "J9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 204.47 220.98 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e4f36ca5-43dc-4b84-91cf-312bb12b160d)
+    (property "Reference" "C18" (at 207.391 220.3363 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 207.391 222.2573 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 205.4352 224.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 204.47 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 57e14fcd-7310-4c5a-8a47-1f12087de7b8))
+    (pin "2" (uuid c8e8f95c-2ea0-45a1-a514-b55ea4f18f85))
+    (instances
+      (project "RocciShield"
+        (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -12724,7 +12828,7 @@
   (symbol (lib_id "Device:R") (at 378.46 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5aaa556-2fa4-4adc-ab65-7c3776e93fcd)
-    (property "Reference" "R3" (at 374.65 53.34 0)
+    (property "Reference" "R5" (at 374.65 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 372.11 55.88 0)
@@ -12741,7 +12845,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R3") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -12750,7 +12854,7 @@
   (symbol (lib_id "power:+12V") (at 332.74 220.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5d9f170-024f-43c0-a256-d04b82513242)
-    (property "Reference" "#PWR093" (at 332.74 224.79 0)
+    (property "Reference" "#PWR094" (at 332.74 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 328.93 219.71 0)
@@ -12766,7 +12870,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
     )
@@ -12831,13 +12935,13 @@
   (symbol (lib_id "Device:R") (at 152.4 255.27 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e87e6d00-ba19-4850-aba6-5ebad4fd9ff9)
-    (property "Reference" "R57" (at 152.4 251.2441 90)
+    (property "Reference" "R62" (at 152.4 251.2441 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 152.4 253.1651 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 152.4 257.048 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 152.4 257.048 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.4 255.27 0)
@@ -12848,7 +12952,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R57") (unit 1)
+          (reference "R62") (unit 1)
         )
       )
     )
@@ -12857,13 +12961,13 @@
   (symbol (lib_id "Device:R") (at 151.13 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8bb9dd7-6a3a-4e79-b267-dc11fb38a117)
-    (property "Reference" "R45" (at 151.13 75.9841 90)
+    (property "Reference" "R15" (at 151.13 75.9841 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 151.13 77.9051 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 151.13 81.788 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 151.13 81.788 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 80.01 0)
@@ -12874,7 +12978,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R45") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -12883,7 +12987,7 @@
   (symbol (lib_id "Device:LED") (at 297.18 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e985d85a-285e-4622-8e1d-7a1436578134)
-    (property "Reference" "D7" (at 299.72 71.12 90)
+    (property "Reference" "D8" (at 299.72 71.12 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "GR" (at 299.72 73.66 90)
@@ -12903,7 +13007,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "D7") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -12934,19 +13038,48 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 309.88 88.9 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e9cf98c7-7652-4f5a-b8cf-0e92d1cff3fd)
+    (property "Reference" "C8" (at 312.801 88.2563 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 312.801 90.1773 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 310.8452 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 309.88 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cad0aacf-0947-443e-92c8-1347a0dd56ce))
+    (pin "2" (uuid 6ebbe88d-63eb-4e79-9beb-ae26d634601c))
+    (instances
+      (project "RocciShield"
+        (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
+          (reference "C8") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C_Polarized") (at 397.51 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9ffed4c-fad9-4d68-ae90-069faf13cf5b)
     (property "Reference" "C5" (at 400.431 53.0773 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22 µF" (at 400.05 55.88 0)
+    (property "Value" "33µ" (at 400.05 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:CP_Elec_5x3" (at 398.4752 58.42 0)
+    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X" (at 398.4752 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 397.51 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LSCL" "C3009395" (at 397.51 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid dd16525a-9be8-45cf-bb6c-80dde500b02d))
@@ -12963,7 +13096,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 203.2 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea428545-395e-4953-8fc0-c0590430c1c2)
-    (property "Reference" "#FLG01" (at 203.2 42.545 0)
+    (property "Reference" "#FLG03" (at 203.2 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 203.2 40.9481 0)
@@ -12979,7 +13112,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -12988,10 +13121,10 @@
   (symbol (lib_id "Device:Polyfuse") (at 162.56 175.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea48701e-05da-4e3d-a958-7d2f5224bb00)
-    (property "Reference" "F17" (at 157.48 172.72 90)
+    (property "Reference" "F7" (at 157.48 172.72 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1 A" (at 165.1 172.72 90)
+    (property "Value" "300 mA ptc" (at 165.1 172.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Fuse:Fuse_0805_2012Metric" (at 167.64 173.99 0)
@@ -13005,7 +13138,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "F17") (unit 1)
+          (reference "F7") (unit 1)
         )
       )
     )
@@ -13014,7 +13147,7 @@
   (symbol (lib_id "power:+5V") (at 127 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb185d51-9862-42d4-b8b9-5e9d8de131e1)
-    (property "Reference" "#PWR078" (at 127 179.07 0)
+    (property "Reference" "#PWR079" (at 127 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 127 171.7581 0)
@@ -13030,7 +13163,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -13039,7 +13172,7 @@
   (symbol (lib_id "power:GND") (at 43.18 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ebae5ee7-121a-435c-9499-d61820d5ec22)
-    (property "Reference" "#PWR0107" (at 43.18 246.38 0)
+    (property "Reference" "#PWR0104" (at 43.18 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 43.18 244.1655 0)
@@ -13055,7 +13188,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -13064,7 +13197,7 @@
   (symbol (lib_id "power:GND") (at 173.99 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ecebf546-3fdf-45bc-a10b-4f31d1401e81)
-    (property "Reference" "#PWR085" (at 173.99 204.47 0)
+    (property "Reference" "#PWR086" (at 173.99 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 173.99 202.2555 0)
@@ -13080,7 +13213,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -13092,13 +13225,16 @@
     (property "Reference" "C1" (at 306.451 40.3773 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22µ" (at 306.07 43.18 0)
+    (property "Value" "33µ" (at 306.07 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:CP_Elec_5x3" (at 304.4952 45.72 0)
+    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X" (at 304.4952 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 303.53 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LSCL" "C542504" (at 303.53 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f2094ac4-9102-4769-963e-766cd6303dec))
@@ -13121,7 +13257,7 @@
     (property "Value" "2N7002" (at 32.893 181.6173 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 33.02 182.88 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 33.02 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 38.1 180.34 0)
@@ -13170,13 +13306,13 @@
   (symbol (lib_id "Device:R") (at 152.4 248.92 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eea9ebdc-bb93-4ea3-8f59-83e3c0c80cd2)
-    (property "Reference" "R56" (at 152.4 244.8941 90)
+    (property "Reference" "R61" (at 152.4 244.8941 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 152.4 246.8151 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 152.4 250.698 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 152.4 250.698 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.4 248.92 0)
@@ -13187,7 +13323,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R56") (unit 1)
+          (reference "R61") (unit 1)
         )
       )
     )
@@ -13246,10 +13382,10 @@
   (symbol (lib_id "Device:Polyfuse") (at 162.56 146.05 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f08de294-3d0a-4642-9cd5-4451a0a00a6a)
-    (property "Reference" "F14" (at 157.48 143.51 90)
+    (property "Reference" "F6" (at 157.48 143.51 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1 A" (at 165.1 143.51 90)
+    (property "Value" "300 mA ptc" (at 165.1 143.51 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Fuse:Fuse_0805_2012Metric" (at 167.64 144.78 0)
@@ -13263,7 +13399,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "F14") (unit 1)
+          (reference "F6") (unit 1)
         )
       )
     )
@@ -13272,7 +13408,7 @@
   (symbol (lib_id "Device:R") (at 355.6 231.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f16e0d13-14a0-42d6-916e-20fb90fdc84f)
-    (property "Reference" "R37" (at 357.378 230.4963 0)
+    (property "Reference" "R56" (at 357.378 230.4963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 357.378 232.4173 0)
@@ -13289,7 +13425,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R37") (unit 1)
+          (reference "R56") (unit 1)
         )
       )
     )
@@ -13370,39 +13506,10 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 312.42 41.91 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f4fc8be1-2252-4e2e-bcf0-969b3c4e2862)
-    (property "Reference" "C2" (at 315.341 41.2663 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "220n" (at 315.341 43.1873 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 313.3852 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 312.42 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C21120" (at 315.341 41.2663 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid aca8b20d-3b0c-4ca5-8a54-1a97947961e0))
-    (pin "2" (uuid 3cca0df4-7bea-47f4-9733-c48e2ecc5208))
-    (instances
-      (project "RocciShield"
-        (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "C2") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 173.99 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f549f354-4f60-4570-8942-6fc349126bfa)
-    (property "Reference" "#PWR076" (at 173.99 175.26 0)
+    (property "Reference" "#PWR077" (at 173.99 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 173.99 173.0455 0)
@@ -13418,7 +13525,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -13554,7 +13661,7 @@
   (symbol (lib_id "power:+5V") (at 143.51 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f77ad428-053c-410b-9069-8e046784f016)
-    (property "Reference" "#PWR072" (at 143.51 154.94 0)
+    (property "Reference" "#PWR073" (at 143.51 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 143.51 147.6281 0)
@@ -13570,7 +13677,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -13579,10 +13686,10 @@
   (symbol (lib_id "Device:R") (at 203.2 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid face37f1-2265-4f2f-a26f-80a3eb39502e)
-    (property "Reference" "R18" (at 204.978 99.6863 0)
+    (property "Reference" "R26" (at 204.978 99.6863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "14k3 1%" (at 204.978 101.6073 0)
+    (property "Value" "180k 1%" (at 204.978 101.6073 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 201.422 100.33 90)
@@ -13596,7 +13703,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R18") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -13682,10 +13789,10 @@
   (symbol (lib_id "Device:R") (at 203.2 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fdc7636a-56e2-469d-916c-7a01c935715f)
-    (property "Reference" "R10" (at 204.978 76.8263 0)
+    (property "Reference" "R13" (at 204.978 76.8263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "383k 1%" (at 204.978 78.7473 0)
+    (property "Value" "4700k 1%" (at 204.978 78.7473 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 201.422 77.47 90)
@@ -13699,7 +13806,7 @@
     (instances
       (project "RocciShield"
         (path "/0431e819-1fd6-4448-bdea-d8b652bd339c"
-          (reference "R10") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
