@@ -7,7 +7,7 @@
   (title_block
     (title "RoCCI Shield")
     (date "2023-06-27")
-    (rev "0.5")
+    (rev "0.6")
     (company "RoCCI e.V.")
   )
 
@@ -5774,8 +5774,8 @@
     (effects (font (size 3 3)) (justify left bottom))
     (uuid e077fcc8-c5bf-489e-a5ef-350f0e4c7625)
   )
-  (text "TODO:  	- is the power connector large enough?\n		- do we need max motor current?"
-    (at 302.26 257.81 0)
+  (text "TODO:  	- is the power connector large enough?\n		- do we need max motor current?\n		- what kind of fuse should we use "
+    (at 320.04 260.35 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e363455f-dce0-4c69-89cc-c42a164b1b17)
   )
@@ -7463,6 +7463,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 213.36 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C122783" (at 213.36 34.29 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e27560dd-e3c3-44e8-a68d-220b689c117e))
