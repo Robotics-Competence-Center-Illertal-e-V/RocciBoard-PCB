@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RocciShield")(type "KiCad")(uri "${KIPRJMOD}/external_libs")(options "")(descr ""))
+)

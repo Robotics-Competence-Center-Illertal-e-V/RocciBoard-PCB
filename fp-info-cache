@@ -1,4 +1,4 @@
-21717763045871233
+21722829269519890
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64554,6 +64554,13 @@ https://docs.arduino.cc/hardware/mega-2560
 92
 91
 PCM_arduino-library
+Arduino_Mega2560_custom_Shield
+https://docs.arduino.cc/hardware/mega-2560
+
+0
+86
+85
+PCM_arduino-library
 Arduino_Micro_Socket
 https://docs.arduino.cc/hardware/micro
 
@@ -83131,6 +83138,20 @@ Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm
 0
 2
 2
+RocciShield
+RocciLogo
+
+
+0
+0
+0
+RocciShield
+SOT95P280X110-6N
+
+
+0
+6
+6
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
