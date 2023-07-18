@@ -7,6 +7,7 @@ TCA9548A,U5,TSSOP-24_4.4x7.8mm_P0.65mm,C130026
 1k,"R16,R35,R36,R43,R44,R51,R52,R58,R59,R65",R_0603_1608Metric,C1603
 1N5819WS,"D1,D10,D11,D12,D15,D16,D2,D20,D21,D24,D25,D30,D31,D4,D5,D9",D_SOD-323,C191023
 220n,C2,C_0603_1608Metric,C21120
+33µ,"C4,C5",CP_EIA-7343-43_Kemet-X,C212716
 1k3,R25,R_0603_1608Metric,C22767
 100,"R12,R15,R27,R28,R3,R33,R34,R4,R40,R41,R49,R50,R56,R57,R63,R64",R_0603_1608Metric,C22775
 150,R18,R_0603_1608Metric,C22808
@@ -25,7 +26,6 @@ RED,D17,LED_0603_1608Metric,C2286
 24.9k,R7,R_0603_1608Metric,C25962
 300 mA ptc,"F1,F10,F3,F4,F5,F6,F7,F8",Fuse_0805_2012Metric,C261938
 3A ptc,F9,Fuse_2920_7451Metric,C2977527
-33µ,"C4,C5",CP_EIA-7343-43_Kemet-X,C3009395
 TPS3700,U4,SOT-23-6,C3658987
 IRF7404,Q1,SOIC-8_3.9x4.9mm_P1.27mm,C693103
 GR,"D13,D14,D18,D19,D22,D23,D28,D29,D6,D7,D8",LED_0603_1608Metric,C72043
@@ -38,8 +38,8 @@ LMR33630,U1,Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias,C841384
 1A ptc,F11,Fuse_1206_3216Metric,C910830
 100µ,"C1,C11,C14",CP_Elec_6.3x7.7,C962164
 1.5µ,L1,L_Sunlord_SWPA4020S,C98360
-M3,J13,PinHeader_1x02_P2.54mm_Vertical,
-M2,J10,PinHeader_1x02_P2.54mm_Vertical,
+M2,J13,PinHeader_1x02_P2.54mm_Vertical,
+M3,J10,PinHeader_1x02_P2.54mm_Vertical,
 Battery,J1,"PhoenixContact_MSTBVA_2,5_2-G_1x02_P5.00mm_Vertical",
 M1,J8,PinHeader_1x02_P2.54mm_Vertical,
 I2C2,J4,PinHeader_1x04_P2.54mm_Vertical,
@@ -50,7 +50,7 @@ M0,J6,PinHeader_1x02_P2.54mm_Vertical,
 I2C3,J5,PinHeader_1x04_P2.54mm_Vertical,
 I2C4,J7,PinHeader_1x04_P2.54mm_Vertical,
 I2C0,J2,PinHeader_1x04_P2.54mm_Vertical,
-Arduino_Mega2560_Shield,XA1,Arduino_Mega2560_Shield,
+Arduino_Mega2560_Shield,XA1,Arduino_Mega2560_custom_Shield,
 I2C1,J3,PinHeader_1x04_P2.54mm_Vertical,
 I2C5,J9,PinHeader_1x04_P2.54mm_Vertical,
 I2C6_VCC,JP10,SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,
@@ -58,7 +58,7 @@ I2C6_VCC,JP10,SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,
 ~,TP8,TestPoint_Pad_D1.0mm,
 ~,TP5,TestPoint_Pad_D1.0mm,
 ~,TP20,TestPoint_Pad_D1.0mm,
-A0,JP7,SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,
+A2,JP7,SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,
 ~,TP21,TestPoint_Pad_D1.0mm,
 ~,TP11,TestPoint_Pad_D1.0mm,
 ~,TP4,TestPoint_Pad_D1.0mm,
@@ -67,7 +67,7 @@ I2C4_VCC,JP8,SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,
 ~,TP12,TestPoint_Pad_D1.0mm,
 ~,TP6,TestPoint_Pad_D1.0mm,
 I2C7_VCC,JP11,SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,
-A0,JP6,SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,
+A1,JP6,SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,
 ~,TP15,TestPoint_Pad_D1.0mm,
 ~,TP9,TestPoint_Pad_D1.0mm,
 ~,TP3,TestPoint_Pad_D1.0mm,
