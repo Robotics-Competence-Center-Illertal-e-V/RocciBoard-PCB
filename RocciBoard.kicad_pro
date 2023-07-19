@@ -415,7 +415,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RocciShield.kicad_pro",
+    "filename": "RocciBoard.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -563,7 +563,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "RocciShield.step",
+      "step": "3d_model/RocciBoard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -601,7 +601,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "documentation/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,

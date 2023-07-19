@@ -1,6 +1,4 @@
-# Rocci Shield
-
-![](documentation/3dimage.png)
+# Rocci Board
 
 # Features
 
@@ -16,15 +14,15 @@
 
 # Schematic
 
-[Schematic as pdf](documentation/RocciShield.pdf)
+[Schematic as pdf](documentation/RocciBoard.pdf)
 
 # Pinout Diagram
 
 ## Top
 
-![](documentation/RocciShield.png)
+![](documentation/RocciBoard_TopView.png)
 
 ## Bottom
 
-![](documentation/RocciShield_Pinout_Bottom.png)
+![](documentation/RocciBoard_BottomView.png)
 
