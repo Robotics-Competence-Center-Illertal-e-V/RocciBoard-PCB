@@ -550,6 +550,10 @@
       {
         "netclass": "SuperPower",
         "pattern": "/12V_input"
+      },
+      {
+        "netclass": "ExtraPower",
+        "pattern": "/VCC_I2C*"
       }
     ]
   },
