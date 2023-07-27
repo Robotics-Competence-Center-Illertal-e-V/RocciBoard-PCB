@@ -8971,7 +8971,7 @@
     (property "Datasheet" "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" (at 269.24 71.12 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "LCSC" "C693103" (at 269.24 71.12 0)
+    (property "LCSC" "C2997" (at 269.24 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9d0ea40e-11a3-49e6-bc94-8e61e691b84b))

@@ -26,8 +26,8 @@ RED,D17,LED_0603_1608Metric,C2286
 24.9k,R7,R_0603_1608Metric,C25962
 300 mA ptc,"F1,F10,F3,F4,F5,F6,F7,F8",Fuse_0805_2012Metric,C261938
 3A ptc,F9,Fuse_2920_7451Metric,C2977527
+IRF7404,Q1,SOIC-8_3.9x4.9mm_P1.27mm,C2997
 TPS3700,U4,SOT-23-6,C3658987
-IRF7404,Q1,SOIC-8_3.9x4.9mm_P1.27mm,C693103
 GR,"D13,D14,D18,D19,D22,D23,D28,D29,D6,D7,D8",LED_0603_1608Metric,C72043
 LM317_TO-252,"U2,U3",TO-252-2,C75510
 DRV8871,"U6,U7,U8,U9",Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias,C75864
@@ -40,18 +40,18 @@ LMR33630,U1,Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias,C841384
 1.5µ,L1,L_Sunlord_SWPA4020S,C98360
 M2,J13,PinHeader_1x02_P2.54mm_Vertical,
 M3,J10,PinHeader_1x02_P2.54mm_Vertical,
+I2C1,J3,PinHeader_1x04_P2.54mm_Vertical,
 Battery,J1,"PhoenixContact_MSTBVA_2,5_2-G_1x02_P5.00mm_Vertical",
 M1,J8,PinHeader_1x02_P2.54mm_Vertical,
 I2C2,J4,PinHeader_1x04_P2.54mm_Vertical,
 I2C7,J14,PinHeader_1x04_P2.54mm_Vertical,
+I2C0,J2,PinHeader_1x04_P2.54mm_Vertical,
+I2C3,J5,PinHeader_1x04_P2.54mm_Vertical,
 Power,J12,PinHeader_1x04_P2.54mm_Vertical,
 I2C6,J11,PinHeader_1x04_P2.54mm_Vertical,
 M0,J6,PinHeader_1x02_P2.54mm_Vertical,
-I2C3,J5,PinHeader_1x04_P2.54mm_Vertical,
 I2C4,J7,PinHeader_1x04_P2.54mm_Vertical,
-I2C0,J2,PinHeader_1x04_P2.54mm_Vertical,
 Arduino_Mega2560_Shield,XA1,Arduino_Mega2560_custom_Shield,
-I2C1,J3,PinHeader_1x04_P2.54mm_Vertical,
 I2C5,J9,PinHeader_1x04_P2.54mm_Vertical,
 I2C6_VCC,JP10,SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,
 ~,TP10,TestPoint_Pad_D1.0mm,
