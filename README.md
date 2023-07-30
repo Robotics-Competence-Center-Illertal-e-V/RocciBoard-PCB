@@ -16,6 +16,8 @@
 
 [Schematic as pdf](documentation/RocciBoard.pdf)
 
+[Layout as pdf](documentation/RocciBoard__Assembly.pdf)
+
 # Pinout Diagram
 
 ## Top
