@@ -1,0 +1,10 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+D1,Q_TRIAC_A1A2G,TO-252-2,100.076,-73.162,270.0,bottom
+J1,Conn_01x04_Pin,PinHeader_1x04_P2.54mm_Vertical,93.98,-72.38,0.0,top
+R1,R,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,106.442,-68.58,0.0,bottom
+R2,R,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,104.902,-72.12,270.0,bottom
+R3,R,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,104.902,-75.93,270.0,bottom
+R4,R,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,107.95,-72.12,270.0,bottom
+R5,R,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,107.95,-75.93,270.0,bottom
+U1,TL432DBZ,SOT-23,111.5845,-74.93,0.0,bottom
+U2,TL432DBZ,SOT-23,111.5845,-70.104,0.0,bottom
