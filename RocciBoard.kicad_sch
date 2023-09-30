@@ -6,8 +6,8 @@
 
   (title_block
     (title "RoCCI Shield")
-    (date "2023-07-29")
-    (rev "1.0")
+    (date "2023-09-30")
+    (rev "1.1")
     (company "RoCCI e.V.")
   )
 
@@ -6037,6 +6037,10 @@
     (effects (font (size 3 3)) (justify left bottom))
     (uuid 6b24aa10-cf0d-4ee9-9385-0e216fd7a9ba)
   )
+  (text "since 1.0:" (at 307.34 255.27 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
+    (uuid 71cf7f39-e9ef-45df-b555-10c3baac04b0)
+  )
   (text "50V\n340mΩ" (at 295.91 40.64 0)
     (effects (font (size 1.27 1.27) (color 0 132 0 1)) (justify left bottom))
     (uuid 8fa65b08-c794-4211-bc71-4ba3e81b0907)
@@ -6045,6 +6049,11 @@
     (at 215.9 106.68 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid aecc66bb-ffdc-4ba9-97df-d59241f91ed5)
+  )
+  (text "fix #9 OVP 12V<->5V short circuit protection\nfix #7 all status LEDs are too bright\nfix #5 Error LED Q2 Source<->Drain vertauscht\nfix #8 prevent backcurrent from Arduino USB\nfix #6 1k LCSL part number was wrong "
+    (at 318.77 265.43 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b462bc1f-834d-4718-97b9-2badf856e963)
   )
   (text "Input Protection Circuit" (at 194.31 26.67 0)
     (effects (font (size 3 3)) (justify left bottom))
