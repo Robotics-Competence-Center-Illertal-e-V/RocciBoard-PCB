@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TPS4H000")(type "KiCad")(uri "${KIPRJMOD}/TPS4H000.kicad_sym")(options "")(descr ""))
+  (lib (name "RocciBoard")(type "KiCad")(uri "${KIPRJMOD}/RocciBoard.kicad_sym")(options "")(descr ""))
+)
