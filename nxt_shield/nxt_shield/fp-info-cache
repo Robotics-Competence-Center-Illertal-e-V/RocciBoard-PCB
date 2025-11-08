@@ -1,4 +1,4 @@
-26485834354098643
+26494428698318053
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59219,6 +59219,20 @@ ceramic
 0
 3
 3
+CustomFootprints
+OLE_LCD
+Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x04 2.54mm single row
+0
+4
+4
+CustomFootprints
+XKB Connection SS-12M11G5
+Wuerth, WS-SLTV, 450301014042, https://www.we-online.com/components/products/datasheet/450301014042.pdf
+switch single-pole opposite-side-connection double-throw SPDT würth wurth
+0
+3
+3
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -105846,10 +105860,31 @@ Varistor VF
 0
 2
 2
+external_libs
+RocciLogo
+
+
+0
+0
+0
+external_libs
+RocciLogo_small
+
+
+0
+0
+0
+external_libs
+SOT95P280X110-6N
+
+
+0
+6
+6
 rb_shield
 Arduino_Due_Shield
 https://docs.arduino.cc/hardware/due
 
 0
-19
-19
+17
+17
