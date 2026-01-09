@@ -28,3 +28,20 @@
 
 ![](documentation/RocciBoard_BottomView.png)
 
+## Hand Assembled Components
+
+male pinheader with femal back:
+1* 4
+1* 7
+2* 8
+1* 18x2
+
+male pinheader:
+1* 8
+1* 10
+1* 4
+1* 1
+9* 4
+4* 2
+
+1* XT60 Male
