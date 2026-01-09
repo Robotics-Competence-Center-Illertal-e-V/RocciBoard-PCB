@@ -66,6 +66,54 @@
         [
           "lib_footprint_issues|167518000|104394000|dd20d398-3497-43f8-b60c-5e964cc43cb2|00000000-0000-0000-0000-000000000000",
           ""
+        ],
+        [
+          "starved_thermal|124484000|118086500|6a98a177-1dc3-461e-b600-af78a097f4d0|b51ff39a-d888-458b-bc5f-aee87241ca4a|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|124602000|110269500|6a98a177-1dc3-461e-b600-af78a097f4d0|02ed7380-5471-421d-a3bb-226fbbac127e|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|126365000|118035000|6a98a177-1dc3-461e-b600-af78a097f4d0|00d62c05-8b0f-4eec-af1d-89886498ec21|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|155265500|98914000|6a98a177-1dc3-461e-b600-af78a097f4d0|0a35b257-d503-48f4-924b-91febe60671e|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|158403000|91864000|6a98a177-1dc3-461e-b600-af78a097f4d0|13eb425f-cb17-440f-8e9c-fd23948d7099|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|161868000|90814000|6a98a177-1dc3-461e-b600-af78a097f4d0|51c30653-1f66-4216-b519-3f1a3578288d|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|177399500|111371000|6a98a177-1dc3-461e-b600-af78a097f4d0|3cd46eb0-7b80-4bce-a19a-bc814ba54e02|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|200484000|98820000|6a98a177-1dc3-461e-b600-af78a097f4d0|db39b181-620b-41a0-a934-c6be1c1fc77e|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|201784000|98820000|6a98a177-1dc3-461e-b600-af78a097f4d0|71427f1a-8ed4-4489-b5be-b99ce1a3d0f7|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|203084000|98820000|6a98a177-1dc3-461e-b600-af78a097f4d0|c7f0ad95-b92b-400c-b614-3b5353e9a451|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|204384000|100120000|6a98a177-1dc3-461e-b600-af78a097f4d0|3405546d-966c-483a-8fec-13cc840974db|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|204384000|98820000|6a98a177-1dc3-461e-b600-af78a097f4d0|51a911c0-310a-4286-9e04-8631f32f9ddf|F.Cu",
+          ""
         ]
       ],
       "meta": {
@@ -235,6 +283,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.2,
+          "drill": 0.45
         }
       ],
       "zones_allow_external_fillets": false
